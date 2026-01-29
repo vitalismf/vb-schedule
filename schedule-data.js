@@ -1621,8 +1621,8 @@ const SCHEDULE_DATA = {
     },
     {
       "id": "s108",
-      "title": "Regenerative Medicine & Preventative Longevity",
-      "description": "Amy Killen leads a hands-on workshop exploring cutting-edge regenerative therapies and preventative health strategies for extending healthspan.",
+      "title": "Sexual Health & Regenerative Longevity",
+      "description": "Amy Killen leads a hands-on workshop exploring the science of sexual health as a longevity intervention, covering regenerative therapies and preventative strategies for extending healthspan.",
       "type": "Workshop",
       "date": "2026-05-14",
       "startTime": "13:45",

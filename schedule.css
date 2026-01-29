@@ -273,9 +273,12 @@
 .vb-schedule__time-sidebar {
   position: sticky;
   top: 0;
+  left: 0;
   align-self: start;
   padding-right: var(--vb-spacing-lg);
   text-align: left;
+  background: var(--vb-bg-page);
+  z-index: 5;
 }
 
 .vb-schedule__time-sidebar::after {

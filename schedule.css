@@ -399,39 +399,37 @@
 .vb-session__tag {
   display: inline-flex;
   align-items: center;
-  padding: 4px 10px;
-  border-radius: var(--vb-radius-full);
-  font-size: 12px;
-  font-weight: 500;
+  padding: 5px 12px;
+  border-radius: 3px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
   white-space: nowrap;
 }
 
 /* Type badge - gray background */
 .vb-session__tag--type {
-  background: var(--vb-bg-page);
+  background: #f3f4f6;
   color: var(--vb-text-muted);
-  border: 1px solid var(--vb-border);
 }
 
 /* Duration badge - gray background */
 .vb-session__tag--duration {
-  background: var(--vb-bg-page);
+  background: #f3f4f6;
   color: var(--vb-text-muted);
-  border: 1px solid var(--vb-border);
 }
 
-/* Track badge - colored border */
+/* Track badge - solid colored background, dark text */
 .vb-session__tag--track {
-  background: transparent;
-  border: 1px solid var(--tag-track-color, var(--vb-border));
-  color: var(--tag-track-color, var(--vb-text-muted));
+  background: var(--tag-track-color, #f3f4f6);
+  color: var(--vb-text);
 }
 
 /* More tracks badge */
 .vb-session__tag--more {
-  background: transparent;
+  background: #f3f4f6;
   color: var(--vb-text-muted);
-  border: 1px solid var(--vb-border);
 }
 
 /* Session Description */

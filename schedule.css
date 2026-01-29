@@ -271,7 +271,9 @@
 
 /* Time Sidebar */
 .vb-schedule__time-sidebar {
-  position: relative;
+  position: sticky;
+  top: 0;
+  align-self: start;
   padding-right: var(--vb-spacing-lg);
   text-align: left;
 }

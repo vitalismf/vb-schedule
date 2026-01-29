@@ -50,16 +50,13 @@
    Base Container
    ======================================== */
 
-body {
-  background-color: var(--vb-bg-page);
-}
-
 .vb-schedule {
   font-family: var(--vb-font);
   max-width: 100%;
   margin: 0 auto;
   padding: 0 8px;
   color: var(--vb-text);
+  background-color: var(--vb-bg-page);
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   max-height: 85vh;

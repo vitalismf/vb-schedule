@@ -1401,7 +1401,7 @@ const SCHEDULE_DATA = {
     },
     {
       "id": "s097",
-      "title": "Opening Keynote: The Mission for Longevity",
+      "title": "The Mission for Longevity",
       "description": "Adam Gries opens Vitalist Bay 2026 with a keynote on the mission driving the longevity movement \u2014 why extending healthy human lifespan is the defining challenge of our time and how a global community is rising to meet it.",
       "type": "Keynote",
       "date": "2026-05-14",
@@ -1641,7 +1641,7 @@ const SCHEDULE_DATA = {
     },
     {
       "id": "s109",
-      "title": "Opening Keynote: Systems Biology & AI-Driven Aging Research",
+      "title": "Systems Biology & AI-Driven Aging Research",
       "description": "Nathan Price opens Day 2 with a keynote on how systems biology and artificial intelligence are transforming our understanding of aging and enabling precision approaches to extending healthspan.",
       "type": "Keynote",
       "date": "2026-05-15",

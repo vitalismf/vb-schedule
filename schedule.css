@@ -654,17 +654,22 @@
 }
 
 @media (max-width: 700px) {
+  .vb-schedule {
+    max-height: 70vh;
+  }
+
   .vb-schedule__time-slot {
     grid-template-columns: 1fr;
-    gap: var(--vb-spacing-md);
+    gap: var(--vb-spacing-sm);
   }
 
   .vb-schedule__time-sidebar {
+    position: static;
     display: flex;
     align-items: baseline;
     gap: var(--vb-spacing-md);
     padding-right: 0;
-    padding-bottom: var(--vb-spacing-md);
+    padding-bottom: var(--vb-spacing-sm);
     border-bottom: 1px solid var(--vb-border-light);
   }
 
@@ -678,19 +683,25 @@
 
   .vb-schedule__sessions-wrapper {
     padding-left: 0;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   }
 
   .vb-schedule__sessions {
-    flex-direction: column;
+    flex-direction: row;
+    overflow: visible;
   }
 
   .vb-session {
-    width: 100%;
-    max-width: none;
+    width: 280px;
+    min-width: 280px;
+    max-width: 280px;
   }
 
   .vb-schedule__sessions--single .vb-session {
     width: 100%;
+    min-width: 0;
+    max-width: none;
   }
 
   .vb-schedule__nav-arrow {

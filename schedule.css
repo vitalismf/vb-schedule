@@ -426,6 +426,12 @@
   color: var(--vb-text);
 }
 
+/* Main Track badge - white text on blue */
+.vb-session__tag--track-main {
+  background: var(--vb-primary);
+  color: #fff;
+}
+
 /* More tracks badge */
 .vb-session__tag--more {
   background: #f3f4f6;

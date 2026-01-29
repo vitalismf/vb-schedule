@@ -13,17 +13,17 @@ const SCHEDULE_DATA = {
   "tracks": [
     {
       "id": "main",
-      "name": "Main Summit",
+      "name": "Main",
       "color": "#1437D0"
     },
     {
       "id": "investors",
-      "name": "Investors Forum",
+      "name": "Investors",
       "color": "#FCD18B"
     },
     {
       "id": "science",
-      "name": "Science Deep Dive",
+      "name": "Science",
       "color": "#FF913C"
     },
     {
@@ -33,13 +33,13 @@ const SCHEDULE_DATA = {
     },
     {
       "id": "biostasis",
-      "name": "Biostasis Track",
+      "name": "Biostasis",
       "color": "#8CEBF4"
     },
     {
       "id": "activities",
       "name": "Activities",
-      "color": "#4ADE80"
+      "color": "#C0D3A5"
     }
   ],
   "locations": [
@@ -1729,7 +1729,7 @@ const SCHEDULE_DATA = {
       "endTime": "11:30",
       "duration": 30,
       "location": "Workshop Room",
-      "trackId": "science",
+      "trackId": "ai-bio",
       "bookable": false,
       "speakers": [
         {
@@ -1809,7 +1809,7 @@ const SCHEDULE_DATA = {
       "endTime": "13:45",
       "duration": 30,
       "location": "Workshop Room",
-      "trackId": "main",
+      "trackId": "ai-bio",
       "bookable": false,
       "speakers": [
         {

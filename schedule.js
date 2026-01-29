@@ -212,7 +212,8 @@ class VitalistBaySchedule {
     const tags = [];
     tags.push(`<span class="vb-session__tag vb-session__tag--type">${session.type}</span>`);
     tags.push(`<span class="vb-session__tag vb-session__tag--duration">${session.duration} Minutes</span>`);
-    tags.push(`<span class="vb-session__tag vb-session__tag--track" style="--tag-track-color: ${track.color}">${track.name}</span>`);
+    const trackMainClass = session.trackId === 'main' ? ' vb-session__tag--track-main' : '';
+    tags.push(`<span class="vb-session__tag vb-session__tag--track${trackMainClass}" style="--tag-track-color: ${track.color}">${track.name}</span>`);
 
     // Speaker section
     let speakersHtml = '';

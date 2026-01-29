@@ -1401,8 +1401,8 @@ const SCHEDULE_DATA = {
     },
     {
       "id": "s097",
-      "title": "Opening Keynote: Systems Biology & AI-Driven Aging Research",
-      "description": "Nathan Price opens Vitalist Bay 2026 with a keynote on how systems biology and artificial intelligence are transforming our understanding of aging and enabling precision approaches to extending healthspan.",
+      "title": "Opening Keynote: The Mission for Longevity",
+      "description": "Adam Gries opens Vitalist Bay 2026 with a keynote on the mission driving the longevity movement \u2014 why extending healthy human lifespan is the defining challenge of our time and how a global community is rising to meet it.",
       "type": "Keynote",
       "date": "2026-05-14",
       "startTime": "09:15",
@@ -1413,9 +1413,9 @@ const SCHEDULE_DATA = {
       "bookable": false,
       "speakers": [
         {
-          "name": "Nathan Price",
-          "title": "Professor \u2014 Buck Institute",
-          "photo": "https://cdn.prod.website-files.com/66b50de91220a363ca008735/697ba4139c21f1bc54a24867_vb2026-speaker-nathan_price.jpg"
+          "name": "Adam Gries",
+          "title": "Founder \u2014 Vitalism Foundation",
+          "photo": "https://media.intro.co/avatars/10277530AAcEo5q.jpg"
         }
       ]
     },
@@ -1641,8 +1641,8 @@ const SCHEDULE_DATA = {
     },
     {
       "id": "s109",
-      "title": "Multi-Omics & Precision Health",
-      "description": "Michael Snyder presents how integrating multiple omics data streams can create a comprehensive view of individual health trajectories.",
+      "title": "Opening Keynote: Systems Biology & AI-Driven Aging Research",
+      "description": "Nathan Price opens Day 2 with a keynote on how systems biology and artificial intelligence are transforming our understanding of aging and enabling precision approaches to extending healthspan.",
       "type": "Keynote",
       "date": "2026-05-15",
       "startTime": "09:15",
@@ -1653,9 +1653,9 @@ const SCHEDULE_DATA = {
       "bookable": false,
       "speakers": [
         {
-          "name": "Michael Snyder",
-          "title": "Stanford University",
-          "photo": "https://cdn.prod.website-files.com/66b50de91220a363ca008735/697ba412fbb5ab965c3ffb3f_vb2026-speaker-michael_snyder.jpg"
+          "name": "Nathan Price",
+          "title": "Professor \u2014 Buck Institute",
+          "photo": "https://cdn.prod.website-files.com/66b50de91220a363ca008735/697ba4139c21f1bc54a24867_vb2026-speaker-nathan_price.jpg"
         }
       ]
     },
@@ -2434,6 +2434,26 @@ const SCHEDULE_DATA = {
       "trackId": "main",
       "bookable": false,
       "speakers": []
+    },
+    {
+      "id": "s150",
+      "title": "Wearables & Multi-Omics for Precision Health",
+      "description": "Michael Snyder presents his pioneering work using wearable devices and multi-omics profiling to detect disease early and optimize individual health trajectories.",
+      "type": "Talk",
+      "date": "2026-05-15",
+      "startTime": "10:15",
+      "endTime": "10:45",
+      "duration": 30,
+      "location": "Main Stage",
+      "trackId": "science",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Michael Snyder",
+          "title": "Professor & Chair \u2014 Stanford Genetics",
+          "photo": "https://cdn.prod.website-files.com/66b50de91220a363ca008735/697ba412fbb5ab965c3ffb3f_vb2026-speaker-michael_snyder.jpg"
+        }
+      ]
     }
   ]
 };

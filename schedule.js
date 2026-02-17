@@ -121,6 +121,27 @@ class VitalistBaySchedule {
     };
   }
 
+  // Generate speaker photo URL from name
+  getSpeakerPhotoUrl(name) {
+    // Special cases where name doesn't match filename convention
+    const specialCases = {
+      "Matthew O'Connor": 'oki_matthew_oconnor',
+      'P.D. Mangan': 'p_d_mangan',
+    };
+
+    if (specialCases[name]) {
+      return `https://vitalistbay.com/vb-static/images/vb2026-speaker-${specialCases[name]}.jpg`;
+    }
+
+    // Convert "Joe Betts-LaCroix" -> "joe_betts_lacroix"
+    const filename = name
+      .toLowerCase()
+      .replace(/['']/g, '')        // Remove apostrophes
+      .replace(/[-\s]+/g, '_')      // Replace hyphens and spaces with underscores
+      .replace(/[^a-z0-9_]/g, '');  // Remove other special chars
+    return `https://vitalistbay.com/vb-static/images/vb2026-speaker-${filename}.jpg`;
+  }
+
   getTotalSessionCount() {
     return this.getFilteredSessions().length;
   }
@@ -219,15 +240,17 @@ class VitalistBaySchedule {
     let speakersHtml = '';
     if (session.speakers && session.speakers.length > 0) {
       const multipleClass = session.speakers.length > 1 ? 'vb-session__speakers--multiple' : '';
-      const speakerItems = session.speakers.slice(0, 3).map(speaker => `
+      const speakerItems = session.speakers.slice(0, 3).map(speaker => {
+        const photoUrl = this.getSpeakerPhotoUrl(speaker.name);
+        return `
         <div class="vb-session__speaker">
-          <img src="${speaker.photo}" alt="${speaker.name}" class="vb-session__speaker-photo" loading="lazy">
+          <img src="${photoUrl}" alt="${speaker.name}" class="vb-session__speaker-photo" loading="lazy">
           <div class="vb-session__speaker-info">
             <div class="vb-session__speaker-name">${speaker.name}</div>
             <div class="vb-session__speaker-title">${speaker.title}</div>
           </div>
         </div>
-      `).join('');
+      `}).join('');
 
       speakersHtml = `<div class="vb-session__speakers ${multipleClass}">${speakerItems}</div>`;
     }
@@ -258,6 +281,59 @@ class VitalistBaySchedule {
     `;
   }
 
+  // Render a combined activities card for multiple activities in the same time slot
+  renderCombinedActivitiesCard(activities) {
+    const first = activities[0];
+    const track = this.getTrack(first.trackId);
+
+    // Determine time of day label based on start time
+    const hour = parseInt(first.startTime.split(':')[0]);
+    let timeOfDay;
+    if (hour <= 8) {
+      timeOfDay = 'Early Morning';
+    } else if (hour < 12) {
+      timeOfDay = 'Mid-Morning';
+    } else if (hour <= 14) {
+      timeOfDay = 'Early Afternoon';
+    } else {
+      timeOfDay = 'Late Afternoon';
+    }
+
+    // Build activity list
+    const activityItems = activities.map(activity => `
+      <div class="vb-activity-item">
+        <div class="vb-activity-item__title">${activity.title}</div>
+        <div class="vb-activity-item__location">
+          ${this.icons.location}
+          <span>${activity.location}</span>
+        </div>
+      </div>
+    `).join('');
+
+    return `
+      <article class="vb-session vb-session--activities-combined" data-session-id="${first.id}">
+        <h3 class="vb-session__title">${timeOfDay} Activities</h3>
+
+        <div class="vb-session__time-location">
+          <div class="vb-session__time-item">
+            ${this.icons.clock}
+            <span>${this.formatTime(first.startTime)} - ${this.formatTime(first.endTime)}</span>
+          </div>
+        </div>
+
+        <div class="vb-session__tags">
+          <span class="vb-session__tag vb-session__tag--type">Activity</span>
+          <span class="vb-session__tag vb-session__tag--duration">${first.duration} Minutes</span>
+          <span class="vb-session__tag vb-session__tag--track" style="--tag-track-color: ${track.color}">${track.name}</span>
+        </div>
+
+        <div class="vb-activities-list">
+          ${activityItems}
+        </div>
+      </article>
+    `;
+  }
+
   // Render time slots
   renderTimeSlots() {
     const sessions = this.getFilteredSessions();
@@ -283,9 +359,26 @@ class VitalistBaySchedule {
 
       sortedTimes.forEach(time => {
         const timeSessions = timeSlotsForDate[time];
-        const sessionCards = timeSessions.map(s => this.renderSessionCard(s)).join('');
-        const isSingle = timeSessions.length === 1;
-        const hasMultiple = timeSessions.length > 1;
+
+        // Separate activities from other session types
+        const activities = timeSessions.filter(s => s.type === 'Activity');
+        const otherSessions = timeSessions.filter(s => s.type !== 'Activity');
+
+        // Combine multiple activities into one card, keep others as individual cards
+        let sessionCards = '';
+        if (activities.length > 1) {
+          // Render combined activities card
+          sessionCards += this.renderCombinedActivitiesCard(activities);
+        } else if (activities.length === 1) {
+          // Single activity gets its own card
+          sessionCards += this.renderSessionCard(activities[0]);
+        }
+        // Render other sessions individually
+        sessionCards += otherSessions.map(s => this.renderSessionCard(s)).join('');
+
+        const totalCards = (activities.length > 1 ? 1 : activities.length) + otherSessions.length;
+        const isSingle = totalCards === 1;
+        const hasMultiple = totalCards > 1;
 
         const weekday = this.getWeekday(date);
         const dateFormatted = this.formatDateShort(date);
@@ -293,10 +386,12 @@ class VitalistBaySchedule {
         html += `
           <div class="vb-schedule__time-slot" data-date="${date}" data-time="${time}">
             <div class="vb-schedule__time-sidebar">
-              <div class="vb-schedule__day-name">${weekday}</div>
-              <div class="vb-schedule__day-date">${dateFormatted}</div>
-              <div class="vb-schedule__time-display">${this.formatTime(time)}</div>
-              <div class="vb-schedule__timezone">(PST)</div>
+              <div class="vb-schedule__time-sidebar-inner">
+                <div class="vb-schedule__day-name">${weekday}</div>
+                <div class="vb-schedule__day-date">${dateFormatted}</div>
+                <div class="vb-schedule__time-display">${this.formatTime(time)}</div>
+                <div class="vb-schedule__timezone">(PST)</div>
+              </div>
             </div>
             <div class="vb-schedule__sessions-wrapper">
               <div class="vb-schedule__sessions ${isSingle ? 'vb-schedule__sessions--single' : ''}" data-count="${timeSessions.length}">

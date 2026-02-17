@@ -273,14 +273,17 @@
 
 /* Time Sidebar */
 .vb-schedule__time-sidebar {
-  position: sticky;
-  top: 0;
-  left: 0;
-  align-self: start;
+  position: relative;
+  align-self: stretch;
   padding-right: var(--vb-spacing-lg);
   text-align: left;
   background: var(--vb-bg-page);
   z-index: 5;
+}
+
+.vb-schedule__time-sidebar-inner {
+  position: sticky;
+  top: 20px;
 }
 
 .vb-schedule__time-sidebar::after {
@@ -289,8 +292,9 @@
   top: 0;
   right: 0;
   bottom: 0;
-  width: 1px;
-  background: var(--vb-border);
+  width: 2px;
+  background: var(--vb-primary);
+  opacity: 0.3;
 }
 
 .vb-schedule__day-name {
@@ -322,12 +326,13 @@
   position: relative;
   padding-left: var(--vb-spacing-lg);
   overflow: visible;
+  flex: 1;
 }
 
 .vb-schedule__sessions {
   display: flex;
+  flex-wrap: wrap;
   gap: var(--vb-spacing-md);
-  overflow: hidden;
   padding-bottom: var(--vb-spacing-xs);
 }
 
@@ -345,14 +350,12 @@
    ======================================== */
 
 .vb-session {
-  flex: 0 0 auto;
-  width: 420px;
-  max-width: 420px;
+  flex: 1 1 380px;
+  max-width: 500px;
   background: var(--vb-bg);
   border: 1px solid var(--vb-border);
   border-radius: var(--vb-radius-lg);
   padding: var(--vb-spacing-lg);
-  scroll-snap-align: start;
   transition: var(--vb-transition);
   display: flex;
   flex-direction: column;
@@ -533,48 +536,56 @@
 }
 
 /* ========================================
-   Navigation Arrow
+   Combined Activities Card
+   ======================================== */
+
+.vb-session--activities-combined {
+  flex: 1 1 380px;
+  max-width: 500px;
+}
+
+.vb-activities-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+}
+
+.vb-activity-item {
+  display: flex;
+  flex-direction: column;
+  padding: 6px 8px;
+  background: var(--vb-bg-page);
+  border-radius: var(--vb-radius-sm);
+  gap: 2px;
+}
+
+.vb-activity-item__title {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--vb-text);
+  line-height: 1.2;
+}
+
+.vb-activity-item__location {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 10px;
+  color: var(--vb-text-muted);
+}
+
+.vb-activity-item__location svg {
+  width: 10px;
+  height: 10px;
+  color: var(--vb-text-light);
+}
+
+/* ========================================
+   Navigation Arrow (hidden - using wrap layout)
    ======================================== */
 
 .vb-schedule__nav-arrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: var(--vb-primary);
-  border: none;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 10;
-  transition: var(--vb-transition);
-  color: #fff;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-}
-
-.vb-schedule__nav-arrow:hover {
-  background: var(--vb-primary-hover);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-}
-
-.vb-schedule__nav-arrow--next {
-  right: -20px;
-}
-
-.vb-schedule__nav-arrow--prev {
-  left: -20px;
-}
-
-.vb-schedule__nav-arrow--hidden {
   display: none;
-}
-
-.vb-schedule__nav-arrow svg {
-  width: 20px;
-  height: 20px;
 }
 
 /* ========================================
@@ -635,8 +646,8 @@
   }
 
   .vb-session {
-    width: 340px;
-    max-width: 340px;
+    flex: 1 1 300px;
+    max-width: none;
   }
 
   .vb-schedule__header-bar {
@@ -684,24 +695,21 @@
 
   .vb-schedule__sessions-wrapper {
     padding-left: 0;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
   }
 
   .vb-schedule__sessions {
-    flex-direction: row;
-    overflow: visible;
+    flex-direction: column;
+    gap: var(--vb-spacing-md);
   }
 
   .vb-session {
-    width: 280px;
-    min-width: 280px;
-    max-width: 280px;
-  }
-
-  .vb-schedule__sessions--single .vb-session {
     width: 100%;
     min-width: 0;
+    max-width: none;
+  }
+
+  .vb-session--activities-combined {
+    width: 100%;
     max-width: none;
   }
 

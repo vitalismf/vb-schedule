@@ -1,0 +1,7 @@
+# Build tools (contain Sheet IDs)
+sheet-to-json.js
+schedule-input.csv
+schedule-data-new.json
+
+# OS files
+.DS_Store

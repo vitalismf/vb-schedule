@@ -241,13 +241,16 @@ class VitalistBaySchedule {
     if (session.speakers && session.speakers.length > 0) {
       const multipleClass = session.speakers.length > 1 ? 'vb-session__speakers--multiple' : '';
       const speakerItems = session.speakers.slice(0, 3).map(speaker => {
-        const photoUrl = this.getSpeakerPhotoUrl(speaker.name);
+        // Handle both string and object speaker formats
+        const speakerName = typeof speaker === 'string' ? speaker : speaker.name;
+        const speakerTitle = typeof speaker === 'string' ? '' : (speaker.title || '');
+        const photoUrl = this.getSpeakerPhotoUrl(speakerName);
         return `
         <div class="vb-session__speaker">
-          <img src="${photoUrl}" alt="${speaker.name}" class="vb-session__speaker-photo" loading="lazy">
+          <img src="${photoUrl}" alt="${speakerName}" class="vb-session__speaker-photo" loading="lazy">
           <div class="vb-session__speaker-info">
-            <div class="vb-session__speaker-name">${speaker.name}</div>
-            <div class="vb-session__speaker-title">${speaker.title}</div>
+            <div class="vb-session__speaker-name">${speakerName}</div>
+            <div class="vb-session__speaker-title">${speakerTitle}</div>
           </div>
         </div>
       `}).join('');
@@ -509,8 +512,11 @@ class VitalistBaySchedule {
 
   showModal(session) {
     const track = this.getTrack(session.trackId);
-    const speaker = session.speakers?.[0];
-    const photoUrl = speaker ? this.getSpeakerPhotoUrl(speaker.name) : '';
+    const rawSpeaker = session.speakers?.[0];
+    // Handle both string and object speaker formats
+    const speakerName = rawSpeaker ? (typeof rawSpeaker === 'string' ? rawSpeaker : rawSpeaker.name) : '';
+    const speakerTitle = rawSpeaker ? (typeof rawSpeaker === 'string' ? '' : (rawSpeaker.title || '')) : '';
+    const photoUrl = speakerName ? this.getSpeakerPhotoUrl(speakerName) : '';
     
     const modal = document.createElement('div');
     modal.className = 'vb-modal-overlay';
@@ -535,12 +541,12 @@ class VitalistBaySchedule {
           </div>
         </div>
         <div class="vb-modal__body">
-          ${speaker ? `
+          ${speakerName ? `
             <div class="vb-modal__speaker">
-              <img src="${photoUrl}" alt="${speaker.name}" class="vb-modal__speaker-photo">
+              <img src="${photoUrl}" alt="${speakerName}" class="vb-modal__speaker-photo">
               <div class="vb-modal__speaker-info">
-                <h4>${speaker.name}</h4>
-                <p>${speaker.title || ''}</p>
+                <h4>${speakerName}</h4>
+                <p>${speakerTitle}</p>
               </div>
             </div>
           ` : ''}

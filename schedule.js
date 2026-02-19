@@ -231,7 +231,7 @@ class VitalistBaySchedule {
 
     // Build tags
     const tags = [];
-    tags.push(`<span class="vb-session__tag vb-session__tag--type">${session.type}</span>`);
+    // Don't show type badge for workshops or talks (icons handle it)
     tags.push(`<span class="vb-session__tag vb-session__tag--duration">${session.duration} Minutes</span>`);
     const trackMainClass = session.trackId === 'main' ? ' vb-session__tag--track-main' : '';
     tags.push(`<span class="vb-session__tag vb-session__tag--track${trackMainClass}" style="--tag-track-color: ${track.color}">${track.name}</span>`);
@@ -256,7 +256,7 @@ class VitalistBaySchedule {
     }
 
     return `
-      <article class="vb-session" data-session-id="${session.id}">
+      <article class="vb-session" data-session-id="${session.id}" data-track="${session.trackId}" data-type="${session.type}">
         <h3 class="vb-session__title">${session.title}</h3>
 
         <div class="vb-session__time-location">
@@ -273,8 +273,6 @@ class VitalistBaySchedule {
         <div class="vb-session__tags">
           ${tags.join('')}
         </div>
-
-        <p class="vb-session__description">${session.description}</p>
 
         ${speakersHtml}
       </article>
@@ -322,7 +320,6 @@ class VitalistBaySchedule {
         </div>
 
         <div class="vb-session__tags">
-          <span class="vb-session__tag vb-session__tag--type">Activity</span>
           <span class="vb-session__tag vb-session__tag--duration">${first.duration} Minutes</span>
           <span class="vb-session__tag vb-session__tag--track" style="--tag-track-color: ${track.color}">${track.name}</span>
         </div>
@@ -426,6 +423,7 @@ class VitalistBaySchedule {
     `;
 
     this.bindEvents();
+    this.bindSessionClicks();
     this.updateNavArrows();
   }
 
@@ -490,6 +488,82 @@ class VitalistBaySchedule {
 
     // Update arrows after scroll completes
     setTimeout(() => this.updateNavArrows(), 350);
+  }
+
+  // Session click handlers for modal
+  bindSessionClicks() {
+    this.container.querySelectorAll('.vb-session[data-session-id]').forEach(card => {
+      // Skip activity cards - they don't need popups
+      if (card.classList.contains('vb-session--activities-combined') || 
+          card.dataset.track === 'activities') {
+        return;
+      }
+      card.style.cursor = 'pointer';
+      card.addEventListener('click', () => {
+        const sessionId = card.dataset.sessionId;
+        const session = this.data.sessions.find(s => s.id === sessionId);
+        if (session) this.showModal(session);
+      });
+    });
+  }
+
+  showModal(session) {
+    const track = this.getTrack(session.trackId);
+    const speaker = session.speakers?.[0];
+    const photoUrl = speaker ? this.getSpeakerPhotoUrl(speaker.name) : '';
+    
+    const modal = document.createElement('div');
+    modal.className = 'vb-modal-overlay';
+    modal.innerHTML = `
+      <div class="vb-modal">
+        <button class="vb-modal__close">&times;</button>
+        <div class="vb-modal__header">
+          <h2 class="vb-modal__title">${session.title}</h2>
+          <div class="vb-modal__meta">
+            <div class="vb-modal__meta-item">
+              ${this.icons.clock}
+              <span>${this.formatTime(session.startTime)} - ${this.formatTime(session.endTime)}</span>
+            </div>
+            <div class="vb-modal__meta-item">
+              ${this.icons.location}
+              <span>${session.location}</span>
+            </div>
+          </div>
+          <div class="vb-modal__tags">
+            <span class="vb-session__tag vb-session__tag--duration">${session.duration} Minutes</span>
+            <span class="vb-session__tag vb-session__tag--track${session.trackId === 'main' ? ' vb-session__tag--track-main' : ''}" style="--tag-track-color: ${track.color}">${track.name}</span>
+          </div>
+        </div>
+        <div class="vb-modal__body">
+          ${speaker ? `
+            <div class="vb-modal__speaker">
+              <img src="${photoUrl}" alt="${speaker.name}" class="vb-modal__speaker-photo">
+              <div class="vb-modal__speaker-info">
+                <h4>${speaker.name}</h4>
+                <p>${speaker.title || ''}</p>
+              </div>
+            </div>
+          ` : ''}
+          <p class="vb-modal__description">${session.description || 'No description available.'}</p>
+        </div>
+      </div>
+    `;
+    
+    document.body.appendChild(modal);
+    requestAnimationFrame(() => modal.classList.add('active'));
+    
+    const close = () => {
+      modal.classList.remove('active');
+      setTimeout(() => modal.remove(), 200);
+    };
+    
+    modal.querySelector('.vb-modal__close').addEventListener('click', close);
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) close();
+    });
+    document.addEventListener('keydown', function esc(e) {
+      if (e.key === 'Escape') { close(); document.removeEventListener('keydown', esc); }
+    });
   }
 
   updateNavArrows() {

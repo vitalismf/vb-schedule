@@ -330,16 +330,20 @@
 }
 
 .vb-schedule__sessions {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: var(--vb-spacing-md);
   padding-bottom: var(--vb-spacing-xs);
 }
 
 /* Single session - full width */
-/* Single session - don't stretch full width on desktop */
+/* Single session - span both columns on desktop */
+.vb-schedule__sessions--single {
+  grid-template-columns: 1fr;
+}
+
 .vb-schedule__sessions--single .vb-session {
-  flex-grow: 0;
+  max-width: 500px;
 }
 
 /* ========================================
@@ -347,8 +351,6 @@
    ======================================== */
 
 .vb-session {
-  flex: 1 1 380px;
-  max-width: 500px;
   background: var(--vb-bg);
   border: 1px solid var(--vb-border);
   border-radius: var(--vb-radius-lg);
@@ -356,6 +358,7 @@
   transition: var(--vb-transition);
   display: flex;
   flex-direction: column;
+  height: fit-content;
 }
 
 /* Hover removed - cards are not clickable */
@@ -537,8 +540,7 @@
    ======================================== */
 
 .vb-session--activities-combined {
-  flex: 1 1 380px;
-  max-width: 500px;
+  height: fit-content;
 }
 
 .vb-activities-list {
@@ -665,6 +667,8 @@
 @media (max-width: 700px) {
   .vb-schedule {
     max-height: 70vh;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   .vb-schedule__time-slot {
@@ -695,14 +699,16 @@
   }
 
   .vb-schedule__sessions {
-    flex-direction: column;
-    gap: var(--vb-spacing-md);
+    grid-template-columns: 1fr;
+    gap: 10px;
   }
 
   .vb-session {
-    width: 100%;
-    min-width: 0;
-    max-width: none;
+    padding: 14px;
+  }
+  
+  .vb-session--activities-combined {
+    height: auto;
   }
 
   .vb-session--activities-combined {
@@ -731,6 +737,11 @@
 }
 
 @media (max-width: 480px) {
+  .vb-schedule {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
   .vb-schedule__header-bar {
     padding: var(--vb-spacing-md) 0;
   }
@@ -740,20 +751,45 @@
   }
 
   .vb-session {
-    padding: var(--vb-spacing-md);
+    padding: 12px;
+    gap: 6px;
   }
 
   .vb-session__title {
     font-size: 15px;
+    margin-bottom: 4px;
+  }
+
+  .vb-session__time-location {
+    margin-bottom: 6px;
+    gap: 8px;
   }
 
   .vb-session__tags {
-    gap: 6px;
+    gap: 4px;
+    margin-bottom: 6px;
   }
 
   .vb-session__tag {
-    padding: 3px 8px;
-    font-size: 11px;
+    padding: 2px 6px;
+    font-size: 10px;
+  }
+
+  .vb-session__speakers {
+    margin-top: 6px;
+  }
+
+  .vb-session__speaker-photo {
+    width: 32px;
+    height: 32px;
+  }
+
+  .vb-session__speaker-name {
+    font-size: 12px;
+  }
+
+  .vb-session__speaker-title {
+    font-size: 10px;
   }
 }
 
@@ -813,4 +849,208 @@
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
+}
+
+/* Activity Cards - Subtle Green Background */
+.vb-session[data-track="activities"],
+.vb-session--activities-combined {
+  background: #f8fdf8 !important;
+  border-color: #e8f0e8 !important;
+}
+
+.vb-activity-item {
+  background: #f5faf5 !important;
+}
+
+/* Activity Icon (top right) - running person (Material Design) */
+.vb-session[data-track="activities"]::before,
+.vb-session--activities-combined::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 18px;
+  height: 18px;
+  opacity: 0.4;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23000'%3E%3Cpath d='M13.5,5.5C14.59,5.5 15.5,4.58 15.5,3.5C15.5,2.38 14.59,1.5 13.5,1.5C12.39,1.5 11.5,2.38 11.5,3.5C11.5,4.58 12.39,5.5 13.5,5.5M9.89,19.38L10.89,15L13,17V23H15V15.5L12.89,13.5L13.5,10.5C14.79,12 16.79,13 19,13V11C17.09,11 15.5,10 14.69,8.58L13.69,7C13.29,6.38 12.69,6 12,6C11.69,6 11.5,6.08 11.19,6.08L6,8.28V13H8V9.58L9.79,8.88L8.19,17L3.29,16L2.89,18L9.89,19.38Z'/%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.vb-session[data-track="activities"],
+.vb-session--activities-combined {
+  position: relative;
+}
+
+/* Talk Visual Indicator - podium icon top right */
+.vb-session[data-type="Talk"] {
+  position: relative;
+}
+
+.vb-session[data-type="Talk"]::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 16px;
+  height: 16px;
+  opacity: 0.35;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512' fill='%23000'%3E%3Cpath d='M64 0C28.7 0 0 28.7 0 64v384c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H64zm96 320h192c17.7 0 32 14.3 32 32s-14.3 32-32 32H160c-17.7 0-32-14.3-32-32s14.3-32 32-32zm-32-96c0-17.7 14.3-32 32-32h224c17.7 0 32 14.3 32 32s-14.3 32-32 32H160c-17.7 0-32-14.3-32-32zm64-96c0-17.7 14.3-32 32-32h128c17.7 0 32 14.3 32 32s-14.3 32-32 32H224c-17.7 0-32-14.3-32-32z'/%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Workshop Visual Indicator - purple border + rotated "workshop" text */
+.vb-session[data-type="Workshop"] {
+  position: relative;
+  padding-left: 28px !important;
+  border-left: 3px solid #7c3aed !important;
+}
+
+.vb-session[data-type="Workshop"]::after {
+  content: "workshop";
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: rotate(-90deg) translateX(-50%);
+  transform-origin: left center;
+  font-size: 9px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #7c3aed;
+  opacity: 0.7;
+  white-space: nowrap;
+}
+
+/* Session Detail Modal */
+.vb-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+.vb-modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.vb-modal {
+  background: white;
+  border-radius: 12px;
+  max-width: 500px;
+  width: 90%;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  transform: translateY(20px);
+  transition: transform 0.2s;
+}
+
+.vb-modal-overlay.active .vb-modal {
+  transform: translateY(0);
+}
+
+.vb-modal__header {
+  padding: 20px 24px 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.vb-modal__title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.vb-modal__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.vb-modal__meta-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.vb-modal__meta-item svg {
+  width: 14px;
+  height: 14px;
+  color: #888;
+}
+
+.vb-modal__tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.vb-modal__body {
+  padding: 20px 24px;
+}
+
+.vb-modal__speaker {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.vb-modal__speaker-photo {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.vb-modal__speaker-info h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.vb-modal__speaker-info p {
+  font-size: 13px;
+  color: #666;
+}
+
+.vb-modal__description {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #444;
+}
+
+.vb-modal__close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 32px;
+  height: 32px;
+  border: none;
+  background: #f0f0f0;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vb-modal__close:hover {
+  background: #e0e0e0;
 }

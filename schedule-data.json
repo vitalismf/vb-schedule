@@ -40,6 +40,11 @@
       "id": "activities",
       "name": "Activities",
       "color": "#C0D3A5"
+    },
+    {
+      "id": "replacement",
+      "name": "Replacement",
+      "color": "#FEC901"
     }
   ],
   "locations": [
@@ -55,6 +60,1846 @@
     "Building F"
   ],
   "sessions": [
+    {
+      "id": "s075",
+      "title": "Gene Therapy Innovation",
+      "description": "Mac Davis from Minicircle presents on gene therapy innovation.",
+      "type": "Talk",
+      "date": "2026-05-14",
+      "startTime": "09:00",
+      "endTime": "09:10",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Mac Davis",
+          "title": "Minicircle",
+          "photo": "https://assets.vitalistbay.com/images/speakers/placeholder.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s076",
+      "title": "Rebranding Longevity",
+      "description": "Christine Peterson from Foresight Institute presents on rebranding longevity.",
+      "type": "Talk",
+      "date": "2026-05-14",
+      "startTime": "09:15",
+      "endTime": "09:25",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Christine Peterson",
+          "title": "Foresight Institute",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba404843ab2ce637a6ca6_vb2026-speaker-christine_peterson.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s077",
+      "title": "Postbiotics & Health",
+      "description": "Ravi Sheth from Kingdom presents on postbiotics & health.",
+      "type": "Talk",
+      "date": "2026-05-14",
+      "startTime": "09:45",
+      "endTime": "09:55",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Ravi Sheth",
+          "title": "Kingdom",
+          "photo": "https://assets.vitalistbay.com/images/speakers/placeholder.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s078",
+      "title": "Funding the Future",
+      "description": "Patri Friedman from Pronomos Capital presents on funding the future.",
+      "type": "Talk",
+      "date": "2026-05-14",
+      "startTime": "10:00",
+      "endTime": "10:10",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "investors",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Patri Friedman",
+          "title": "Pronomos Capital",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba41ab6b3131720a8f7cf_vb2026-speaker-patri_friedman.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s036",
+      "title": "Health Optimization",
+      "description": "Jacob Peters from Superpower leads a workshop on health optimization.",
+      "type": "Workshop",
+      "date": "2026-05-14",
+      "startTime": "10:10",
+      "endTime": "11:00",
+      "duration": 50,
+      "location": "Workshop Room A",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Jacob Peters",
+          "title": "Superpower",
+          "photo": "https://assets.vitalistbay.com/images/speakers/placeholder.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s084",
+      "title": "Gene Therapy Innovation",
+      "description": "Mac Davis from Minicircle leads a workshop on gene therapy innovation.",
+      "type": "Workshop",
+      "date": "2026-05-14",
+      "startTime": "10:10",
+      "endTime": "11:00",
+      "duration": 50,
+      "location": "Workshop Room B",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Mac Davis",
+          "title": "Minicircle",
+          "photo": "https://assets.vitalistbay.com/images/speakers/placeholder.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s085",
+      "title": "Rebranding Longevity",
+      "description": "Christine Peterson from Foresight Institute leads a workshop on rebranding longevity.",
+      "type": "Workshop",
+      "date": "2026-05-14",
+      "startTime": "10:10",
+      "endTime": "11:00",
+      "duration": 50,
+      "location": "Workshop Room C",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Christine Peterson",
+          "title": "Foresight Institute",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba404843ab2ce637a6ca6_vb2026-speaker-christine_peterson.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s086",
+      "title": "Postbiotics & Health",
+      "description": "Ravi Sheth from Kingdom leads a workshop on postbiotics & health.",
+      "type": "Workshop",
+      "date": "2026-05-14",
+      "startTime": "10:10",
+      "endTime": "11:00",
+      "duration": 50,
+      "location": "Workshop Room D",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Ravi Sheth",
+          "title": "Kingdom",
+          "photo": "https://assets.vitalistbay.com/images/speakers/placeholder.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s079",
+      "title": "Investing in the Biology of Aging",
+      "description": "Jarod Rutledge from Starbloom Capital presents on investing in the biology of aging.",
+      "type": "Talk",
+      "date": "2026-05-14",
+      "startTime": "10:30",
+      "endTime": "10:40",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "investors",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Jarod Rutledge",
+          "title": "Starbloom Capital",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba40cc9a29e8e52b43223_vb2026-speaker-jarod_rutledge.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s080",
+      "title": "Human Cryopreservation",
+      "description": "Emil Kendziorra from Tomorrow Bio presents on human cryopreservation.",
+      "type": "Talk",
+      "date": "2026-05-14",
+      "startTime": "13:00",
+      "endTime": "13:10",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "biostasis",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Emil Kendziorra",
+          "title": "Tomorrow Bio",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba407fbb5ab965c3ff305_vb2026-speaker-emil_kendziorra.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s087",
+      "title": "Funding the Future",
+      "description": "Patri Friedman from Pronomos Capital leads a workshop on funding the future.",
+      "type": "Workshop",
+      "date": "2026-05-14",
+      "startTime": "13:10",
+      "endTime": "14:00",
+      "duration": 50,
+      "location": "Workshop Room A",
+      "trackId": "investors",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Patri Friedman",
+          "title": "Pronomos Capital",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba41ab6b3131720a8f7cf_vb2026-speaker-patri_friedman.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s088",
+      "title": "Investing in the Biology of Aging",
+      "description": "Jarod Rutledge from Starbloom Capital leads a workshop on investing in the biology of aging.",
+      "type": "Workshop",
+      "date": "2026-05-14",
+      "startTime": "13:10",
+      "endTime": "14:00",
+      "duration": 50,
+      "location": "Workshop Room B",
+      "trackId": "investors",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Jarod Rutledge",
+          "title": "Starbloom Capital",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba40cc9a29e8e52b43223_vb2026-speaker-jarod_rutledge.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s081",
+      "title": "iPS Cell Therapy for Tissue Repair & Regeneration",
+      "description": "Richard K Burt from Northwestern University presents on ips cell therapy for tissue repair & regeneration.",
+      "type": "Talk",
+      "date": "2026-05-14",
+      "startTime": "13:15",
+      "endTime": "13:25",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "replacement",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Richard K Burt",
+          "title": "Northwestern University",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba41ec9a29e8e52b4406c_vb2026-speaker-richard_k_burt.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s089",
+      "title": "Human Cryopreservation",
+      "description": "Emil Kendziorra from Tomorrow Bio leads a workshop on human cryopreservation.",
+      "type": "Workshop",
+      "date": "2026-05-14",
+      "startTime": "14:10",
+      "endTime": "15:00",
+      "duration": 50,
+      "location": "Workshop Room A",
+      "trackId": "biostasis",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Emil Kendziorra",
+          "title": "Tomorrow Bio",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba407fbb5ab965c3ff305_vb2026-speaker-emil_kendziorra.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s090",
+      "title": "iPS Cell Therapy for Tissue Repair & Regeneration",
+      "description": "Richard K Burt from Northwestern University leads a workshop on ips cell therapy for tissue repair & regeneration.",
+      "type": "Workshop",
+      "date": "2026-05-14",
+      "startTime": "14:10",
+      "endTime": "15:00",
+      "duration": 50,
+      "location": "Workshop Room B",
+      "trackId": "replacement",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Richard K Burt",
+          "title": "Northwestern University",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba41ec9a29e8e52b4406c_vb2026-speaker-richard_k_burt.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s082",
+      "title": "Investing in Longevity",
+      "description": "Nishant Bhat from Carbon Silicon Ventures presents on investing in longevity.",
+      "type": "Talk",
+      "date": "2026-05-14",
+      "startTime": "14:15",
+      "endTime": "14:25",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "investors",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Nishant Bhat",
+          "title": "Carbon Silicon Ventures",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697bdc3e4e2ff8afe884f7e6_image%20(13).png"
+        }
+      ]
+    },
+    {
+      "id": "s083",
+      "title": "Inflammation & Health",
+      "description": "Andrew Herr from Flykitt presents on inflammation & health.",
+      "type": "Talk",
+      "date": "2026-05-14",
+      "startTime": "15:00",
+      "endTime": "15:10",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Andrew Herr",
+          "title": "Flykitt",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba400165a81c0bc20a521_vb2026-speaker-andrew_herr.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s091",
+      "title": "Investing in Longevity",
+      "description": "Nishant Bhat from Carbon Silicon Ventures leads a workshop on investing in longevity.",
+      "type": "Workshop",
+      "date": "2026-05-14",
+      "startTime": "15:10",
+      "endTime": "16:00",
+      "duration": 50,
+      "location": "Workshop Room",
+      "trackId": "investors",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Nishant Bhat",
+          "title": "Carbon Silicon Ventures",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697bdc3e4e2ff8afe884f7e6_image%20(13).png"
+        }
+      ]
+    },
+    {
+      "id": "s092",
+      "title": "Inflammation & Health",
+      "description": "Andrew Herr from Flykitt leads a workshop on inflammation & health.",
+      "type": "Workshop",
+      "date": "2026-05-14",
+      "startTime": "16:10",
+      "endTime": "17:00",
+      "duration": 50,
+      "location": "Workshop Room",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Andrew Herr",
+          "title": "Flykitt",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba400165a81c0bc20a521_vb2026-speaker-andrew_herr.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s001",
+      "title": "Gene Therapy Approaches",
+      "description": "Martin Borch Jensen from Gordian Bio presents on gene therapy approaches.",
+      "type": "Talk",
+      "date": "2026-05-15",
+      "startTime": "09:00",
+      "endTime": "09:10",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Martin Borch Jensen",
+          "title": "Gordian Bio",
+          "photo": "https://assets.vitalistbay.com/images/speakers/placeholder.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s002",
+      "title": "Remote-Control Biology",
+      "description": "Richard Fuisz from nonfiction.bio presents on remote-control biology.",
+      "type": "Talk",
+      "date": "2026-05-15",
+      "startTime": "09:15",
+      "endTime": "09:25",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Richard Fuisz",
+          "title": "nonfiction.bio",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba41dbfd54867618c3b70_vb2026-speaker-richard_fuisz.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s003",
+      "title": "LBF Roadmap",
+      "description": "Mark Hamalainen from Longevity Biotech Fellowship presents on lbf roadmap.",
+      "type": "Talk",
+      "date": "2026-05-15",
+      "startTime": "09:30",
+      "endTime": "09:40",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Mark Hamalainen",
+          "title": "Longevity Biotech Fellowship",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba41179e4f9cc3751f548_vb2026-speaker-mark_hamalainen.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s004",
+      "title": "The New Science of Aging",
+      "description": "Andrew Steele from Author presents on the new science of aging.",
+      "type": "Talk",
+      "date": "2026-05-15",
+      "startTime": "09:45",
+      "endTime": "09:55",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Andrew Steele",
+          "title": "Author",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba40137383ea28a5d7887_vb2026-speaker-andrew_steele.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s005",
+      "title": "Capital & Longevity",
+      "description": "Karl Pfleger from Aging Biotech Info presents on capital & longevity.",
+      "type": "Talk",
+      "date": "2026-05-15",
+      "startTime": "10:00",
+      "endTime": "10:10",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "investors",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Karl Pfleger",
+          "title": "Aging Biotech Info",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba40e2bb6b9ed6ace38dd_vb2026-speaker-karl_pfleger.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s013",
+      "title": "Gene Therapy Approaches",
+      "description": "Martin Borch Jensen from Gordian Bio leads a workshop on gene therapy approaches.",
+      "type": "Workshop",
+      "date": "2026-05-15",
+      "startTime": "10:10",
+      "endTime": "11:00",
+      "duration": 50,
+      "location": "Workshop Room A",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Martin Borch Jensen",
+          "title": "Gordian Bio",
+          "photo": "https://assets.vitalistbay.com/images/speakers/placeholder.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s014",
+      "title": "Remote-Control Biology",
+      "description": "Richard Fuisz from nonfiction.bio leads a workshop on remote-control biology.",
+      "type": "Workshop",
+      "date": "2026-05-15",
+      "startTime": "10:10",
+      "endTime": "11:00",
+      "duration": 50,
+      "location": "Workshop Room B",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Richard Fuisz",
+          "title": "nonfiction.bio",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba41dbfd54867618c3b70_vb2026-speaker-richard_fuisz.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s015",
+      "title": "LBF Roadmap",
+      "description": "Mark Hamalainen from Longevity Biotech Fellowship leads a workshop on lbf roadmap.",
+      "type": "Workshop",
+      "date": "2026-05-15",
+      "startTime": "10:10",
+      "endTime": "11:00",
+      "duration": 50,
+      "location": "Workshop Room C",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Mark Hamalainen",
+          "title": "Longevity Biotech Fellowship",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba41179e4f9cc3751f548_vb2026-speaker-mark_hamalainen.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s016",
+      "title": "The New Science of Aging",
+      "description": "Andrew Steele from Author leads a workshop on the new science of aging.",
+      "type": "Workshop",
+      "date": "2026-05-15",
+      "startTime": "10:10",
+      "endTime": "11:00",
+      "duration": 50,
+      "location": "Workshop Room D",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Andrew Steele",
+          "title": "Author",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba40137383ea28a5d7887_vb2026-speaker-andrew_steele.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s006",
+      "title": "Health & Longevity as Investment Opportunity",
+      "description": "Dave Messina from Pioneer Fund presents on health & longevity as investment opportunity.",
+      "type": "Talk",
+      "date": "2026-05-15",
+      "startTime": "10:15",
+      "endTime": "10:25",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "investors",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Dave Messina",
+          "title": "Pioneer Fund",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba405741e75610d3dd4c9_vb2026-speaker-dave_messina.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s007",
+      "title": "Financial Planning for Longer Life",
+      "description": "Curtis Estes from Northwestern Mutual presents on financial planning for longer life.",
+      "type": "Talk",
+      "date": "2026-05-15",
+      "startTime": "10:30",
+      "endTime": "10:40",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "investors",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Curtis Estes",
+          "title": "Northwestern Mutual",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba40579e4f9cc3751eeaa_vb2026-speaker-curtis_estes.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s008",
+      "title": "Investing in Longevity",
+      "description": "Omri Amriav-Drory from Nfx Bio presents on investing in longevity.",
+      "type": "Talk",
+      "date": "2026-05-15",
+      "startTime": "10:45",
+      "endTime": "10:55",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "investors",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Omri Amriav-Drory",
+          "title": "Nfx Bio",
+          "photo": "https://assets.vitalistbay.com/images/speakers/placeholder.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s009",
+      "title": "Longevity Escape Velocity",
+      "description": "Aubrey de Grey from LEV Foundation presents on longevity escape velocity.",
+      "type": "Talk",
+      "date": "2026-05-15",
+      "startTime": "13:00",
+      "endTime": "13:10",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "science",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Aubrey de Grey",
+          "title": "LEV Foundation",
+          "photo": "https://assets.vitalistbay.com/images/speakers/placeholder.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s017",
+      "title": "Capital & Longevity",
+      "description": "Karl Pfleger from Aging Biotech Info leads a workshop on capital & longevity.",
+      "type": "Workshop",
+      "date": "2026-05-15",
+      "startTime": "13:10",
+      "endTime": "14:00",
+      "duration": 50,
+      "location": "Workshop Room A",
+      "trackId": "investors",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Karl Pfleger",
+          "title": "Aging Biotech Info",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba40e2bb6b9ed6ace38dd_vb2026-speaker-karl_pfleger.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s018",
+      "title": "Health & Longevity as Investment Opportunity",
+      "description": "Dave Messina from Pioneer Fund leads a workshop on health & longevity as investment opportunity.",
+      "type": "Workshop",
+      "date": "2026-05-15",
+      "startTime": "13:10",
+      "endTime": "14:00",
+      "duration": 50,
+      "location": "Workshop Room B",
+      "trackId": "investors",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Dave Messina",
+          "title": "Pioneer Fund",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba405741e75610d3dd4c9_vb2026-speaker-dave_messina.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s019",
+      "title": "Financial Planning for Longer Life",
+      "description": "Curtis Estes from Northwestern Mutual leads a workshop on financial planning for longer life.",
+      "type": "Workshop",
+      "date": "2026-05-15",
+      "startTime": "13:10",
+      "endTime": "14:00",
+      "duration": 50,
+      "location": "Workshop Room C",
+      "trackId": "investors",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Curtis Estes",
+          "title": "Northwestern Mutual",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba40579e4f9cc3751eeaa_vb2026-speaker-curtis_estes.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s020",
+      "title": "Investing in Longevity",
+      "description": "Omri Amriav-Drory from Nfx Bio leads a workshop on investing in longevity.",
+      "type": "Workshop",
+      "date": "2026-05-15",
+      "startTime": "13:10",
+      "endTime": "14:00",
+      "duration": 50,
+      "location": "Workshop Room D",
+      "trackId": "investors",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Omri Amriav-Drory",
+          "title": "Nfx Bio",
+          "photo": "https://assets.vitalistbay.com/images/speakers/placeholder.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s010",
+      "title": "Genome Integrity & Aging",
+      "description": "Chris Bradley from Matter Bio presents on genome integrity & aging.",
+      "type": "Talk",
+      "date": "2026-05-15",
+      "startTime": "13:15",
+      "endTime": "13:25",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "science",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Chris Bradley",
+          "title": "Matter Bio",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba40338d88f31e58179fc_vb2026-speaker-chris_bradley.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s011",
+      "title": "Longevity Therapeutics",
+      "description": "Eric Morgen from BioAge presents on longevity therapeutics.",
+      "type": "Talk",
+      "date": "2026-05-15",
+      "startTime": "13:30",
+      "endTime": "13:40",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "science",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Eric Morgen",
+          "title": "BioAge",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba408fbb5ab965c3ff385_vb2026-speaker-eric_morgen.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s012",
+      "title": "Capital & Longevity",
+      "description": "Danielle Strachman from 1517 Fund presents on capital & longevity.",
+      "type": "Talk",
+      "date": "2026-05-15",
+      "startTime": "14:00",
+      "endTime": "14:10",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "investors",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Danielle Strachman",
+          "title": "1517 Fund",
+          "photo": "https://assets.vitalistbay.com/images/speakers/placeholder.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s021",
+      "title": "Longevity Escape Velocity",
+      "description": "Aubrey de Grey from LEV Foundation leads a workshop on longevity escape velocity.",
+      "type": "Workshop",
+      "date": "2026-05-15",
+      "startTime": "14:10",
+      "endTime": "15:00",
+      "duration": 50,
+      "location": "Workshop Room A",
+      "trackId": "science",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Aubrey de Grey",
+          "title": "LEV Foundation",
+          "photo": "https://assets.vitalistbay.com/images/speakers/placeholder.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s022",
+      "title": "Genome Integrity & Aging",
+      "description": "Chris Bradley from Matter Bio leads a workshop on genome integrity & aging.",
+      "type": "Workshop",
+      "date": "2026-05-15",
+      "startTime": "14:10",
+      "endTime": "15:00",
+      "duration": 50,
+      "location": "Workshop Room B",
+      "trackId": "science",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Chris Bradley",
+          "title": "Matter Bio",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba40338d88f31e58179fc_vb2026-speaker-chris_bradley.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s023",
+      "title": "Longevity Therapeutics",
+      "description": "Eric Morgen from BioAge leads a workshop on longevity therapeutics.",
+      "type": "Workshop",
+      "date": "2026-05-15",
+      "startTime": "14:10",
+      "endTime": "15:00",
+      "duration": 50,
+      "location": "Workshop Room C",
+      "trackId": "science",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Eric Morgen",
+          "title": "BioAge",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba408fbb5ab965c3ff385_vb2026-speaker-eric_morgen.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s024",
+      "title": "Capital & Longevity",
+      "description": "Danielle Strachman from 1517 Fund leads a workshop on capital & longevity.",
+      "type": "Workshop",
+      "date": "2026-05-15",
+      "startTime": "15:10",
+      "endTime": "16:00",
+      "duration": 50,
+      "location": "Workshop Room",
+      "trackId": "investors",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Danielle Strachman",
+          "title": "1517 Fund",
+          "photo": "https://assets.vitalistbay.com/images/speakers/placeholder.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s025",
+      "title": "Health Optimization",
+      "description": "Jacob Peters from Superpower presents on health optimization.",
+      "type": "Talk",
+      "date": "2026-05-16",
+      "startTime": "09:00",
+      "endTime": "09:10",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Jacob Peters",
+          "title": "Superpower",
+          "photo": "https://assets.vitalistbay.com/images/speakers/placeholder.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s026",
+      "title": "Evidence-Based Wellness",
+      "description": "Jeff Chen from Radicle Science presents on evidence-based wellness.",
+      "type": "Talk",
+      "date": "2026-05-16",
+      "startTime": "09:15",
+      "endTime": "09:25",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Jeff Chen",
+          "title": "Radicle Science",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba40cb6b3131720a8ee4e_vb2026-speaker-jeff_chen.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s027",
+      "title": "Metabolic Health & Longevity",
+      "description": "P.D. Mangan from Author presents on metabolic health & longevity.",
+      "type": "Talk",
+      "date": "2026-05-16",
+      "startTime": "09:30",
+      "endTime": "09:40",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "P.D. Mangan",
+          "title": "Author",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba41a686d885305ff4337_vb2026-speaker-p_d_mangan.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s037",
+      "title": "Evidence-Based Wellness",
+      "description": "Jeff Chen from Radicle Science leads a workshop on evidence-based wellness.",
+      "type": "Workshop",
+      "date": "2026-05-16",
+      "startTime": "10:10",
+      "endTime": "11:00",
+      "duration": 50,
+      "location": "Workshop Room A",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Jeff Chen",
+          "title": "Radicle Science",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba40cb6b3131720a8ee4e_vb2026-speaker-jeff_chen.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s038",
+      "title": "Metabolic Health & Longevity",
+      "description": "P.D. Mangan from Author leads a workshop on metabolic health & longevity.",
+      "type": "Workshop",
+      "date": "2026-05-16",
+      "startTime": "10:10",
+      "endTime": "11:00",
+      "duration": 50,
+      "location": "Workshop Room B",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "P.D. Mangan",
+          "title": "Author",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba41a686d885305ff4337_vb2026-speaker-p_d_mangan.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s028",
+      "title": "How AI Can Help Defeat Aging",
+      "description": "Derya Unutmaz from Jackson Laboratory presents on how ai can help defeat aging.",
+      "type": "Talk",
+      "date": "2026-05-16",
+      "startTime": "10:15",
+      "endTime": "10:25",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "ai-bio",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Derya Unutmaz",
+          "title": "Jackson Laboratory",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba406c9a29e8e52b42d31_vb2026-speaker-derya_unutmaz.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s029",
+      "title": "Transplant Medicine",
+      "description": "Kevin Caldwell from Ossium Health presents on transplant medicine.",
+      "type": "Talk",
+      "date": "2026-05-16",
+      "startTime": "13:00",
+      "endTime": "13:10",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Kevin Caldwell",
+          "title": "Ossium Health",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba40f1721f6920f897d20_vb2026-speaker-kevin_caldwell.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s039",
+      "title": "How AI Can Help Defeat Aging",
+      "description": "Derya Unutmaz from Jackson Laboratory leads a workshop on how ai can help defeat aging.",
+      "type": "Workshop",
+      "date": "2026-05-16",
+      "startTime": "13:10",
+      "endTime": "14:00",
+      "duration": 50,
+      "location": "Workshop Room",
+      "trackId": "ai-bio",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Derya Unutmaz",
+          "title": "Jackson Laboratory",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba406c9a29e8e52b42d31_vb2026-speaker-derya_unutmaz.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s030",
+      "title": "Nature-Inspired Biopreservation",
+      "description": "Xiaoxi Wei from X-Therma presents on nature-inspired biopreservation.",
+      "type": "Talk",
+      "date": "2026-05-16",
+      "startTime": "13:15",
+      "endTime": "13:25",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Xiaoxi Wei",
+          "title": "X-Therma",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba42337383ea28a5d9037_vb2026-speaker-xiaoxi_wei.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s031",
+      "title": "The Strong Epigenetic Theory of Programmed Aging",
+      "description": "Yuri Deigin from YouthBio Therapeutics presents on the strong epigenetic theory of programmed aging.",
+      "type": "Talk",
+      "date": "2026-05-16",
+      "startTime": "13:45",
+      "endTime": "13:55",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Yuri Deigin",
+          "title": "YouthBio Therapeutics",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba424ff616576ec8d32d2_vb2026-speaker-yuri_deigin.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s032",
+      "title": "Biotech Policy",
+      "description": "Ian Huyett from Cornerstone presents on biotech policy.",
+      "type": "Talk",
+      "date": "2026-05-16",
+      "startTime": "14:00",
+      "endTime": "14:10",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Ian Huyett",
+          "title": "Cornerstone",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba40a9c21f1bc54a24269_vb2026-speaker-ian_huyett.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s040",
+      "title": "Transplant Medicine",
+      "description": "Kevin Caldwell from Ossium Health leads a workshop on transplant medicine.",
+      "type": "Workshop",
+      "date": "2026-05-16",
+      "startTime": "14:10",
+      "endTime": "15:00",
+      "duration": 50,
+      "location": "Workshop Room A",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Kevin Caldwell",
+          "title": "Ossium Health",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba40f1721f6920f897d20_vb2026-speaker-kevin_caldwell.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s041",
+      "title": "Nature-Inspired Biopreservation",
+      "description": "Xiaoxi Wei from X-Therma leads a workshop on nature-inspired biopreservation.",
+      "type": "Workshop",
+      "date": "2026-05-16",
+      "startTime": "14:10",
+      "endTime": "15:00",
+      "duration": 50,
+      "location": "Workshop Room B",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Xiaoxi Wei",
+          "title": "X-Therma",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba42337383ea28a5d9037_vb2026-speaker-xiaoxi_wei.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s042",
+      "title": "Organ Preservation & Transplantation",
+      "description": "Sebastian Giwa from Organ Preservation Alliance leads a workshop on organ preservation & transplantation.",
+      "type": "Workshop",
+      "date": "2026-05-16",
+      "startTime": "14:10",
+      "endTime": "15:00",
+      "duration": 50,
+      "location": "Workshop Room C",
+      "trackId": "biostasis",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Sebastian Giwa",
+          "title": "Organ Preservation Alliance",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba420b6b3131720a8fa7e_vb2026-speaker-sebastian_giwa.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s043",
+      "title": "The Strong Epigenetic Theory of Programmed Aging",
+      "description": "Yuri Deigin from YouthBio Therapeutics leads a workshop on the strong epigenetic theory of programmed aging.",
+      "type": "Workshop",
+      "date": "2026-05-16",
+      "startTime": "14:10",
+      "endTime": "15:00",
+      "duration": 50,
+      "location": "Workshop Room D",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Yuri Deigin",
+          "title": "YouthBio Therapeutics",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba424ff616576ec8d32d2_vb2026-speaker-yuri_deigin.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s033",
+      "title": "Advances in Longevity",
+      "description": "Michael Andregg from Eon Systems presents on advances in longevity.",
+      "type": "Talk",
+      "date": "2026-05-16",
+      "startTime": "14:15",
+      "endTime": "14:25",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Michael Andregg",
+          "title": "Eon Systems",
+          "photo": "https://assets.vitalistbay.com/images/speakers/placeholder.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s034",
+      "title": "Decentralized Science & Longevity Movement",
+      "description": "Laurence Ion from VitaDAO/Zuzalu presents on decentralized science & longevity movement.",
+      "type": "Talk",
+      "date": "2026-05-16",
+      "startTime": "14:45",
+      "endTime": "14:55",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Laurence Ion",
+          "title": "VitaDAO/Zuzalu",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba41037383ea28a5d84e7_vb2026-speaker-laurence_ion.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s035",
+      "title": "Advances in Longevity",
+      "description": "Farbood Nivi from Ravikant Capital presents on advances in longevity.",
+      "type": "Talk",
+      "date": "2026-05-16",
+      "startTime": "15:00",
+      "endTime": "15:10",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Farbood Nivi",
+          "title": "Ravikant Capital",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba40938d88f31e5817d50_vb2026-speaker-farbood_nivi.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s044",
+      "title": "Biotech Policy",
+      "description": "Ian Huyett from Cornerstone leads a workshop on biotech policy.",
+      "type": "Workshop",
+      "date": "2026-05-16",
+      "startTime": "15:10",
+      "endTime": "16:00",
+      "duration": 50,
+      "location": "Workshop Room A",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Ian Huyett",
+          "title": "Cornerstone",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba40a9c21f1bc54a24269_vb2026-speaker-ian_huyett.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s045",
+      "title": "Advances in Longevity",
+      "description": "Michael Andregg from Eon Systems leads a workshop on advances in longevity.",
+      "type": "Workshop",
+      "date": "2026-05-16",
+      "startTime": "15:10",
+      "endTime": "16:00",
+      "duration": 50,
+      "location": "Workshop Room B",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Michael Andregg",
+          "title": "Eon Systems",
+          "photo": "https://assets.vitalistbay.com/images/speakers/placeholder.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s046",
+      "title": "Global Health Strategy",
+      "description": "Todd White from Thalion Global leads a workshop on global health strategy.",
+      "type": "Workshop",
+      "date": "2026-05-16",
+      "startTime": "15:10",
+      "endTime": "16:00",
+      "duration": 50,
+      "location": "Workshop Room C",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Todd White",
+          "title": "Thalion Global",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba422bfd54867618c3d40_vb2026-speaker-todd_white.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s047",
+      "title": "Decentralized Science & Longevity Movement",
+      "description": "Laurence Ion from VitaDAO/Zuzalu leads a workshop on decentralized science & longevity movement.",
+      "type": "Workshop",
+      "date": "2026-05-16",
+      "startTime": "15:10",
+      "endTime": "16:00",
+      "duration": 50,
+      "location": "Workshop Room D",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Laurence Ion",
+          "title": "VitaDAO/Zuzalu",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba41037383ea28a5d84e7_vb2026-speaker-laurence_ion.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s048",
+      "title": "Advances in Longevity",
+      "description": "Farbood Nivi from Ravikant Capital leads a workshop on advances in longevity.",
+      "type": "Workshop",
+      "date": "2026-05-16",
+      "startTime": "16:10",
+      "endTime": "17:00",
+      "duration": 50,
+      "location": "Workshop Room",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Farbood Nivi",
+          "title": "Ravikant Capital",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba40938d88f31e5817d50_vb2026-speaker-farbood_nivi.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s049",
+      "title": "Personalized Longevity",
+      "description": "Adam Bataineh from Numenor presents on personalized longevity.",
+      "type": "Talk",
+      "date": "2026-05-17",
+      "startTime": "09:30",
+      "endTime": "09:40",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Adam Bataineh",
+          "title": "Numenor",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba3fd207644001e15f96f_vb2026-speaker-adam_bataineh.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s050",
+      "title": "Precision Nutrition",
+      "description": "Ari Tulla from Elo Health presents on precision nutrition.",
+      "type": "Talk",
+      "date": "2026-05-17",
+      "startTime": "09:45",
+      "endTime": "09:55",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Ari Tulla",
+          "title": "Elo Health",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba4029c21f1bc54a23bc8_vb2026-speaker-ari_tulla.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s051",
+      "title": "Data-Driven Interventions for Aging",
+      "description": "Morten Scheibye-Knudsen from U. Copenhagen presents on data-driven interventions for aging.",
+      "type": "Talk",
+      "date": "2026-05-17",
+      "startTime": "10:00",
+      "endTime": "10:10",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "ai-bio",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Morten Scheibye-Knudsen",
+          "title": "U. Copenhagen",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba412165a81c0bc20a749_vb2026-speaker-morten_scheibye_knudsen.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s062",
+      "title": "Personalized Longevity",
+      "description": "Adam Bataineh from Numenor leads a workshop on personalized longevity.",
+      "type": "Workshop",
+      "date": "2026-05-17",
+      "startTime": "10:10",
+      "endTime": "11:00",
+      "duration": 50,
+      "location": "Workshop Room A",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Adam Bataineh",
+          "title": "Numenor",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba3fd207644001e15f96f_vb2026-speaker-adam_bataineh.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s063",
+      "title": "Precision Nutrition",
+      "description": "Ari Tulla from Elo Health leads a workshop on precision nutrition.",
+      "type": "Workshop",
+      "date": "2026-05-17",
+      "startTime": "10:10",
+      "endTime": "11:00",
+      "duration": 50,
+      "location": "Workshop Room B",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Ari Tulla",
+          "title": "Elo Health",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba4029c21f1bc54a23bc8_vb2026-speaker-ari_tulla.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s052",
+      "title": "Extending Healthy Lifespan",
+      "description": "Joe Betts-LaCroix from Retro Bioscience presents on extending healthy lifespan.",
+      "type": "Talk",
+      "date": "2026-05-17",
+      "startTime": "10:15",
+      "endTime": "10:25",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "ai-bio",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Joe Betts-LaCroix",
+          "title": "Retro Bioscience",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba40dc9a29e8e52b4338b_vb2026-speaker-joe_betts_lacroix.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s053",
+      "title": "Drug Discovery & R&D",
+      "description": "Jack Scannell from Etheros Pharmaceuticals presents on drug discovery & r&d.",
+      "type": "Talk",
+      "date": "2026-05-17",
+      "startTime": "10:30",
+      "endTime": "10:40",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "ai-bio",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Jack Scannell",
+          "title": "Etheros Pharmaceuticals",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba40bbfd54867618c3456_vb2026-speaker-jack_scannell.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s054",
+      "title": "Deep Data & Remote Monitoring",
+      "description": "Michael Snyder from Stanford presents on deep data & remote monitoring.",
+      "type": "Talk",
+      "date": "2026-05-17",
+      "startTime": "10:45",
+      "endTime": "10:55",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "ai-bio",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Michael Snyder",
+          "title": "Stanford",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba412fbb5ab965c3ffb3f_vb2026-speaker-michael_snyder.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s055",
+      "title": "Cryonics & Life Extension",
+      "description": "Ralph Merkle from Alcor Life Extension Foundation presents on cryonics & life extension.",
+      "type": "Talk",
+      "date": "2026-05-17",
+      "startTime": "13:00",
+      "endTime": "13:10",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "biostasis",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Ralph Merkle",
+          "title": "Alcor Life Extension Foundation",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba41cfbb5ab965c3ffeea_vb2026-speaker-ralph_merkle.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s064",
+      "title": "Data-Driven Interventions for Aging",
+      "description": "Morten Scheibye-Knudsen from U. Copenhagen leads a workshop on data-driven interventions for aging.",
+      "type": "Workshop",
+      "date": "2026-05-17",
+      "startTime": "13:10",
+      "endTime": "14:00",
+      "duration": 50,
+      "location": "Workshop Room A",
+      "trackId": "ai-bio",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Morten Scheibye-Knudsen",
+          "title": "U. Copenhagen",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba412165a81c0bc20a749_vb2026-speaker-morten_scheibye_knudsen.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s065",
+      "title": "Extending Healthy Lifespan",
+      "description": "Joe Betts-LaCroix from Retro Bioscience leads a workshop on extending healthy lifespan.",
+      "type": "Workshop",
+      "date": "2026-05-17",
+      "startTime": "13:10",
+      "endTime": "14:00",
+      "duration": 50,
+      "location": "Workshop Room B",
+      "trackId": "ai-bio",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Joe Betts-LaCroix",
+          "title": "Retro Bioscience",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba40dc9a29e8e52b4338b_vb2026-speaker-joe_betts_lacroix.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s066",
+      "title": "Drug Discovery & R&D",
+      "description": "Jack Scannell from Etheros Pharmaceuticals leads a workshop on drug discovery & r&d.",
+      "type": "Workshop",
+      "date": "2026-05-17",
+      "startTime": "13:10",
+      "endTime": "14:00",
+      "duration": 50,
+      "location": "Workshop Room C",
+      "trackId": "ai-bio",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Jack Scannell",
+          "title": "Etheros Pharmaceuticals",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba40bbfd54867618c3456_vb2026-speaker-jack_scannell.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s067",
+      "title": "Deep Data & Remote Monitoring",
+      "description": "Michael Snyder from Stanford leads a workshop on deep data & remote monitoring.",
+      "type": "Workshop",
+      "date": "2026-05-17",
+      "startTime": "13:10",
+      "endTime": "14:00",
+      "duration": 50,
+      "location": "Workshop Room D",
+      "trackId": "ai-bio",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Michael Snyder",
+          "title": "Stanford",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba412fbb5ab965c3ffb3f_vb2026-speaker-michael_snyder.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s056",
+      "title": "Female Longevity",
+      "description": "Kayla Barnes-Lentz presents on female longevity.",
+      "type": "Talk",
+      "date": "2026-05-17",
+      "startTime": "13:15",
+      "endTime": "13:25",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Kayla Barnes-Lentz",
+          "title": "",
+          "photo": "https://assets.vitalistbay.com/images/speakers/placeholder.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s057",
+      "title": "Aging Vasculature",
+      "description": "Matthew O'Connor from Cyclarity Therapeutics presents on aging vasculature.",
+      "type": "Talk",
+      "date": "2026-05-17",
+      "startTime": "14:00",
+      "endTime": "14:10",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Matthew O'Connor",
+          "title": "Cyclarity Therapeutics",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba417bfd54867618c3a51_vb2026-speaker-oki_matthew_oconnor.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s068",
+      "title": "Cryonics & Life Extension",
+      "description": "Ralph Merkle from Alcor Life Extension Foundation leads a workshop on cryonics & life extension.",
+      "type": "Workshop",
+      "date": "2026-05-17",
+      "startTime": "14:10",
+      "endTime": "15:00",
+      "duration": 50,
+      "location": "Workshop Room A",
+      "trackId": "biostasis",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Ralph Merkle",
+          "title": "Alcor Life Extension Foundation",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba41cfbb5ab965c3ffeea_vb2026-speaker-ralph_merkle.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s069",
+      "title": "Female Longevity",
+      "description": "Kayla Barnes-Lentz leads a workshop on female longevity.",
+      "type": "Workshop",
+      "date": "2026-05-17",
+      "startTime": "14:10",
+      "endTime": "15:00",
+      "duration": 50,
+      "location": "Workshop Room B",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Kayla Barnes-Lentz",
+          "title": "",
+          "photo": "https://assets.vitalistbay.com/images/speakers/placeholder.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s058",
+      "title": "Ethics & Economics of Longevity",
+      "description": "Raiany Romanni from Writer presents on ethics & economics of longevity.",
+      "type": "Talk",
+      "date": "2026-05-17",
+      "startTime": "14:15",
+      "endTime": "14:25",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Raiany Romanni",
+          "title": "Writer",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba41bfbb5ab965c3ffe9e_vb2026-speaker-raiany_romanni.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s059",
+      "title": "Advances in Longevity",
+      "description": "Molly Maloof presents on advances in longevity.",
+      "type": "Talk",
+      "date": "2026-05-17",
+      "startTime": "14:30",
+      "endTime": "14:40",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Molly Maloof",
+          "title": "",
+          "photo": "https://assets.vitalistbay.com/images/speakers/placeholder.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s060",
+      "title": "Senescent Cells & Targeted Aging",
+      "description": "Marco Quarta from Rubedo Life Sciences presents on senescent cells & targeted aging.",
+      "type": "Talk",
+      "date": "2026-05-17",
+      "startTime": "14:45",
+      "endTime": "14:55",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Marco Quarta",
+          "title": "Rubedo Life Sciences",
+          "photo": "https://assets.vitalistbay.com/images/speakers/placeholder.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s061",
+      "title": "NAD+ Metabolism & Healthy Aging",
+      "description": "Charles Brenner from City of Hope presents on nad+ metabolism & healthy aging.",
+      "type": "Talk",
+      "date": "2026-05-17",
+      "startTime": "15:00",
+      "endTime": "15:10",
+      "duration": 10,
+      "location": "Main Stage",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Charles Brenner",
+          "title": "City of Hope",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba402ae3bb44e2f11ad33_vb2026-speaker-charles_brenner.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s070",
+      "title": "Aging Vasculature",
+      "description": "Matthew O'Connor from Cyclarity Therapeutics leads a workshop on aging vasculature.",
+      "type": "Workshop",
+      "date": "2026-05-17",
+      "startTime": "15:10",
+      "endTime": "16:00",
+      "duration": 50,
+      "location": "Workshop Room A",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Matthew O'Connor",
+          "title": "Cyclarity Therapeutics",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba417bfd54867618c3a51_vb2026-speaker-oki_matthew_oconnor.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s071",
+      "title": "Ethics & Economics of Longevity",
+      "description": "Raiany Romanni from Writer leads a workshop on ethics & economics of longevity.",
+      "type": "Workshop",
+      "date": "2026-05-17",
+      "startTime": "15:10",
+      "endTime": "16:00",
+      "duration": 50,
+      "location": "Workshop Room B",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Raiany Romanni",
+          "title": "Writer",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba41bfbb5ab965c3ffe9e_vb2026-speaker-raiany_romanni.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s072",
+      "title": "Advances in Longevity",
+      "description": "Molly Maloof leads a workshop on advances in longevity.",
+      "type": "Workshop",
+      "date": "2026-05-17",
+      "startTime": "15:10",
+      "endTime": "16:00",
+      "duration": 50,
+      "location": "Workshop Room C",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Molly Maloof",
+          "title": "",
+          "photo": "https://assets.vitalistbay.com/images/speakers/placeholder.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s073",
+      "title": "Senescent Cells & Targeted Aging",
+      "description": "Marco Quarta from Rubedo Life Sciences leads a workshop on senescent cells & targeted aging.",
+      "type": "Workshop",
+      "date": "2026-05-17",
+      "startTime": "15:10",
+      "endTime": "16:00",
+      "duration": 50,
+      "location": "Workshop Room D",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Marco Quarta",
+          "title": "Rubedo Life Sciences",
+          "photo": "https://assets.vitalistbay.com/images/speakers/placeholder.jpg"
+        }
+      ]
+    },
+    {
+      "id": "s074",
+      "title": "NAD+ Metabolism & Healthy Aging",
+      "description": "Charles Brenner from City of Hope leads a workshop on nad+ metabolism & healthy aging.",
+      "type": "Workshop",
+      "date": "2026-05-17",
+      "startTime": "16:10",
+      "endTime": "17:00",
+      "duration": 50,
+      "location": "Workshop Room",
+      "trackId": "main",
+      "bookable": false,
+      "speakers": [
+        {
+          "name": "Charles Brenner",
+          "title": "City of Hope",
+          "photo": "https://assets.vitalistbay.com/images/speakers/697ba402ae3bb44e2f11ad33_vb2026-speaker-charles_brenner.jpg"
+        }
+      ]
+    },
     {
       "id": "s001",
       "title": "Morning Run",
@@ -1398,1062 +3243,6 @@
       "trackId": "activities",
       "bookable": false,
       "speakers": []
-    },
-    {
-      "id": "s097",
-      "title": "The Mission for Longevity",
-      "description": "Adam Gries opens Vitalist Bay 2026 with a keynote on the mission driving the longevity movement \u2014 why extending healthy human lifespan is the defining challenge of our time and how a global community is rising to meet it.",
-      "type": "Talk",
-      "date": "2026-05-14",
-      "startTime": "09:15",
-      "endTime": "10:00",
-      "duration": 45,
-      "location": "Main Stage",
-      "trackId": "main",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Adam Gries",
-          "title": "Founder \u2014 Vitalism Foundation",
-          "photo": "https://assets.vitalistbay.com/images/speakers/10277530AAcEo5q.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s098",
-      "title": "The New Science of Aging",
-      "description": "Andrew Steele presents the latest breakthroughs in aging research, from molecular mechanisms to interventions on the horizon.",
-      "type": "Talk",
-      "date": "2026-05-14",
-      "startTime": "10:15",
-      "endTime": "10:45",
-      "duration": 30,
-      "location": "Main Stage",
-      "trackId": "science",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Andrew Steele",
-          "title": "Author of \"Ageless\"",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba40137383ea28a5d7887_vb2026-speaker-andrew_steele.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s099",
-      "title": "iPS Cell Therapy for Tissue Repair & Regeneration",
-      "description": "Richard K Burt presents findings from a phase I trial of iPS cells for ALS and explores how irradiated iPS cells and their secretome can repair damaged or aged tissue.",
-      "type": "Workshop",
-      "date": "2026-05-14",
-      "startTime": "10:15",
-      "endTime": "10:45",
-      "duration": 30,
-      "location": "Workshop Room",
-      "trackId": "science",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Richard K Burt",
-          "title": "Northwestern Univeristy",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba41ec9a29e8e52b4406c_vb2026-speaker-richard_k_burt.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s100",
-      "title": "Genome Integrity & the Future of Aging",
-      "description": "Chris Bradley discusses how preserving genome integrity may be key to combating aging and age-related diseases, and Matter Bio's approach to accurate mutation sequencing and clearance of pathological cells.",
-      "type": "Talk",
-      "date": "2026-05-14",
-      "startTime": "11:00",
-      "endTime": "11:30",
-      "duration": 30,
-      "location": "Main Stage",
-      "trackId": "science",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Chris Bradley",
-          "title": "Matter Bio",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba40338d88f31e58179fc_vb2026-speaker-chris_bradley.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s101",
-      "title": "Rebranding Longevity: Unlocking New Funding Pathways",
-      "description": "Christine Peterson explores strategies to reframe longevity research to access disease-focused funding mechanisms.",
-      "type": "Workshop",
-      "date": "2026-05-14",
-      "startTime": "11:00",
-      "endTime": "11:30",
-      "duration": 30,
-      "location": "Workshop Room",
-      "trackId": "main",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Christine Peterson",
-          "title": "Co-founder \u2014 Foresight Institute",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba404843ab2ce637a6ca6_vb2026-speaker-christine_peterson.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s102",
-      "title": "The Landscape of Aging Biotech",
-      "description": "Karl Pfleger provides a broad survey of the current aging biotech landscape, key companies, and where investment opportunities lie.",
-      "type": "Talk",
-      "date": "2026-05-14",
-      "startTime": "11:45",
-      "endTime": "12:15",
-      "duration": 30,
-      "location": "Main Stage",
-      "trackId": "investors",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Karl Pfleger",
-          "title": "Founder \u2014 Aging Biotech Info",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba40e2bb6b9ed6ace38dd_vb2026-speaker-karl_pfleger.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s103",
-      "title": "Advancing Longevity Therapeutics",
-      "description": "Eric Morgen shares insights from BioAge on the development pipeline for longevity-focused therapeutics.",
-      "type": "Workshop",
-      "date": "2026-05-14",
-      "startTime": "11:45",
-      "endTime": "12:15",
-      "duration": 30,
-      "location": "Workshop Room",
-      "trackId": "science",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Eric Morgen",
-          "title": "BioAge",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba408fbb5ab965c3ff385_vb2026-speaker-eric_morgen.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s104",
-      "title": "Inflammation & the Hidden Health Effects of Travel",
-      "description": "Andrew Herr explores how travel and environmental stressors drive systemic inflammation, and practical strategies to mitigate their impact on long-term health.",
-      "type": "Talk",
-      "date": "2026-05-14",
-      "startTime": "13:15",
-      "endTime": "13:45",
-      "duration": 30,
-      "location": "Main Stage",
-      "trackId": "science",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Andrew Herr",
-          "title": "Fount",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba400165a81c0bc20a521_vb2026-speaker-andrew_herr.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s105",
-      "title": "Building New Models for Health Governance",
-      "description": "Patri Friedman discusses how experimental governance and new city models can accelerate health innovation and longevity policy.",
-      "type": "Workshop",
-      "date": "2026-05-14",
-      "startTime": "13:15",
-      "endTime": "13:45",
-      "duration": 30,
-      "location": "Workshop Room",
-      "trackId": "main",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Patri Friedman",
-          "title": "Founder & General Partner \u2014 Pronomos Capital",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba41ab6b3131720a8f7cf_vb2026-speaker-patri_friedman.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s106",
-      "title": "The Longevity Biotech Fellowship Roadmap: What's Next",
-      "description": "Mark Hamalainen reveals version 2 of the LBF Roadmap, outlining the next generation of longevity biotech priorities and fellowship initiatives.",
-      "type": "Talk",
-      "date": "2026-05-14",
-      "startTime": "15:15",
-      "endTime": "15:45",
-      "duration": 30,
-      "location": "Main Stage",
-      "trackId": "main",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Mark Hamalainen",
-          "title": "Longevity Biotech Fellowship",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba41179e4f9cc3751f548_vb2026-speaker-mark_hamalainen.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s107",
-      "title": "Organ Preservation & the Future of Transplantation",
-      "description": "Sebastian Giwa discusses how advanced preservation technologies are poised to revolutionize organ banking and transplantation access worldwide.",
-      "type": "Workshop",
-      "date": "2026-05-14",
-      "startTime": "15:15",
-      "endTime": "15:45",
-      "duration": 30,
-      "location": "Workshop Room",
-      "trackId": "biostasis",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Sebastian Giwa",
-          "title": "Founder \u2014 Organ Preservation Alliance",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba420b6b3131720a8fa7e_vb2026-speaker-sebastian_giwa.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s108",
-      "title": "Sexual Health & Regenerative Longevity",
-      "description": "Amy Killen leads a hands-on workshop exploring the science of sexual health as a longevity intervention, covering regenerative therapies and preventative strategies for extending healthspan.",
-      "type": "Workshop",
-      "date": "2026-05-14",
-      "startTime": "13:45",
-      "endTime": "14:45",
-      "duration": 60,
-      "location": "Workshop Room",
-      "trackId": "science",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Amy Killen",
-          "title": "Co-founder & CMO \u2014 Humanaut Health",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba3fe686d885305ff3652_vb2026-speaker-amy_killen.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s109",
-      "title": "Systems Biology & AI-Driven Aging Research",
-      "description": "Nathan Price opens Day 2 with a keynote on how systems biology and artificial intelligence are transforming our understanding of aging and enabling precision approaches to extending healthspan.",
-      "type": "Talk",
-      "date": "2026-05-15",
-      "startTime": "09:15",
-      "endTime": "10:00",
-      "duration": 45,
-      "location": "Main Stage",
-      "trackId": "science",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Nathan Price",
-          "title": "Professor \u2014 Buck Institute",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba4139c21f1bc54a24867_vb2026-speaker-nathan_price.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s110",
-      "title": "Nature-Inspired Biopreservation for Longevity",
-      "description": "Xiaoxi Wei discusses how X-Therma's breakthrough ice-prevention technologies, inspired by nature, are rewriting the time equation for organ preservation and regenerative medicine.",
-      "type": "Talk",
-      "date": "2026-05-15",
-      "startTime": "10:15",
-      "endTime": "10:45",
-      "duration": 30,
-      "location": "Main Stage",
-      "trackId": "biostasis",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Xiaoxi Wei",
-          "title": "CEO & Co-Founder \u2014 X-Therma",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba42337383ea28a5d9037_vb2026-speaker-xiaoxi_wei.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s111",
-      "title": "DNA Damage & Age-Related Disease",
-      "description": "Morten Scheibye-Knudsen explores how DNA damage drives age-related diseases and the interventions being developed to combat them.",
-      "type": "Workshop",
-      "date": "2026-05-15",
-      "startTime": "10:15",
-      "endTime": "10:45",
-      "duration": 30,
-      "location": "Workshop Room",
-      "trackId": "science",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Morten Scheibye-Knudsen",
-          "title": "Professor \u2014 University of Copenhagen",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba412165a81c0bc20a749_vb2026-speaker-morten_scheibye_knudsen.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s112",
-      "title": "Ocular Longevity: The Future of Vision Health",
-      "description": "Nishant Bhat presents on the emerging field of ocular longevity and how we can preserve and restore vision as we age.",
-      "type": "Talk",
-      "date": "2026-05-15",
-      "startTime": "11:00",
-      "endTime": "11:30",
-      "duration": 30,
-      "location": "Main Stage",
-      "trackId": "science",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Nishant Bhat",
-          "title": "Co-founder \u2014 Carbon Silicon Ventures",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697bdc3e4e2ff8afe884f7e6_image%20(13).png"
-        }
-      ]
-    },
-    {
-      "id": "s113",
-      "title": "Immunity, T Cells & the Biology of Aging",
-      "description": "Derya Unutmaz presents his pioneering research on how T cell differentiation and immune regulation change with aging, and what that means for healthspan.",
-      "type": "Workshop",
-      "date": "2026-05-15",
-      "startTime": "11:00",
-      "endTime": "11:30",
-      "duration": 30,
-      "location": "Workshop Room",
-      "trackId": "ai-bio",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Derya Unutmaz",
-          "title": "The Jackson Laboratory",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba406c9a29e8e52b42d31_vb2026-speaker-derya_unutmaz.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s114",
-      "title": "Health & Longevity as the Investment Opportunity of the Decade",
-      "description": "Dave Messina makes the case for why health and longevity represent the most compelling investment opportunity in the current decade.",
-      "type": "Talk",
-      "date": "2026-05-15",
-      "startTime": "11:45",
-      "endTime": "12:15",
-      "duration": 30,
-      "location": "Main Stage",
-      "trackId": "investors",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Dave Messina",
-          "title": "Partner \u2014 Pioneer Fund",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba405741e75610d3dd4c9_vb2026-speaker-dave_messina.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s115",
-      "title": "The Science of Evidence-Based Wellness",
-      "description": "Jeff Chen discusses how Radicle Science is bringing rigorous evidence to the wellness industry.",
-      "type": "Workshop",
-      "date": "2026-05-15",
-      "startTime": "11:45",
-      "endTime": "12:15",
-      "duration": 30,
-      "location": "Workshop Room",
-      "trackId": "science",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Jeff Chen",
-          "title": "Radicle Science",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba40cb6b3131720a8ee4e_vb2026-speaker-jeff_chen.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s116",
-      "title": "The Aging Vasculature: Degeneration & Rejuvenation",
-      "description": "Matthew O'Connor explores the mechanisms behind vascular aging and Cyclarity's approach to eliminating toxic oxidized cholesterol to rejuvenate the cardiovascular system.",
-      "type": "Talk",
-      "date": "2026-05-15",
-      "startTime": "13:15",
-      "endTime": "13:45",
-      "duration": 30,
-      "location": "Main Stage",
-      "trackId": "science",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Matthew O'Connor",
-          "title": "Co-Founder & CEO \u2014 Cyclarity Therapeutics",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba417bfd54867618c3a51_vb2026-speaker-oki_matthew_oconnor.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s117",
-      "title": "Extending Healthy Human Lifespan",
-      "description": "Joe Betts-LaCroix shares Retro Biosciences' vision and progress toward extending healthy human lifespan by ten years.",
-      "type": "Workshop",
-      "date": "2026-05-15",
-      "startTime": "13:15",
-      "endTime": "13:45",
-      "duration": 30,
-      "location": "Workshop Room",
-      "trackId": "ai-bio",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Joe Betts-LaCroix",
-          "title": "CEO \u2014 Retro Bioscience",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba40dc9a29e8e52b4338b_vb2026-speaker-joe_betts_lacroix.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s118",
-      "title": "ARPA-H & the Future of Health Innovation",
-      "description": "Jean Hebert provides an inside look at ARPA-H's Health Science Futures programs and their potential to transform health research.",
-      "type": "Talk",
-      "date": "2026-05-15",
-      "startTime": "15:15",
-      "endTime": "15:45",
-      "duration": 30,
-      "location": "Main Stage",
-      "trackId": "main",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Jean Hebert",
-          "title": "Program Director \u2014 ARPA-H",
-          "photo": ""
-        }
-      ]
-    },
-    {
-      "id": "s119",
-      "title": "Glycan Biomarkers & Biological Age",
-      "description": "Nikolina Lauc explores how glycan biomarkers can provide a window into biological aging and guide personalized health interventions.",
-      "type": "Workshop",
-      "date": "2026-05-15",
-      "startTime": "15:15",
-      "endTime": "15:45",
-      "duration": 30,
-      "location": "Workshop Room",
-      "trackId": "science",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Nikolina Lauc",
-          "title": "Glycanage",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba415165a81c0bc20a8f4_vb2026-speaker-nikolina_lauc.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s120",
-      "title": "The Case for Human Cryopreservation",
-      "description": "Emil Kendziorra leads a deep-dive workshop on the science, logistics, and philosophy of human cryopreservation and why it matters for the future of longevity.",
-      "type": "Workshop",
-      "date": "2026-05-15",
-      "startTime": "13:45",
-      "endTime": "14:45",
-      "duration": 60,
-      "location": "Workshop Room",
-      "trackId": "biostasis",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Emil Kendziorra",
-          "title": "Emil Kendziorra MD,Founder & CEO, \u2014 Tomorrow Bio",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba407fbb5ab965c3ff305_vb2026-speaker-emil_kendziorra.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s121",
-      "title": "The Future of Human Potential",
-      "description": "Tim Chang opens Day 3 with a keynote on the convergence of longevity science, technology, and human potential \u2014 drawing on his experience as a venture investor and founder exploring the frontiers of health and consciousness.",
-      "type": "Talk",
-      "date": "2026-05-16",
-      "startTime": "09:15",
-      "endTime": "10:00",
-      "duration": 45,
-      "location": "Main Stage",
-      "trackId": "investors",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Tim Chang",
-          "title": "Founder \u2014 The Portal; formerly GP @ Mayfield",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba4219c21f1bc54a2519b_vb2026-speaker-tim_chang.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s122",
-      "title": "Gene Therapy Approaches to Reversing Aging",
-      "description": "Yuri Deigin presents YouthBio Therapeutics' work on cutting-edge gene therapies aimed at reversing aging processes at the cellular level.",
-      "type": "Talk",
-      "date": "2026-05-16",
-      "startTime": "10:15",
-      "endTime": "10:45",
-      "duration": 30,
-      "location": "Main Stage",
-      "trackId": "science",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Yuri Deigin",
-          "title": "CEO \u2014 YouthBio Therapeutics",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba424ff616576ec8d32d2_vb2026-speaker-yuri_deigin.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s123",
-      "title": "Building the Future of Transplant Medicine",
-      "description": "Kevin Caldwell discusses Ossium Health's pioneering work in creating the world's first bone marrow bank for transplants.",
-      "type": "Workshop",
-      "date": "2026-05-16",
-      "startTime": "10:15",
-      "endTime": "10:45",
-      "duration": 30,
-      "location": "Workshop Room",
-      "trackId": "science",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Kevin Caldwell",
-          "title": "CEO, Co-Founder & President \u2014 Ossium Health",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba40f1721f6920f897d20_vb2026-speaker-kevin_caldwell.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s124",
-      "title": "Making Longevity Accessible",
-      "description": "Farbood Nivi explores practical strategies for making longevity interventions easy and accessible to everyone.",
-      "type": "Talk",
-      "date": "2026-05-16",
-      "startTime": "11:00",
-      "endTime": "11:30",
-      "duration": 30,
-      "location": "Main Stage",
-      "trackId": "main",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Farbood Nivi",
-          "title": "Ravikant Capital",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba40938d88f31e5817d50_vb2026-speaker-farbood_nivi.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s125",
-      "title": "Perspectives on Longevity & Technology",
-      "description": "Ian Huyett offers insights on how technology and longevity science intersect to create new possibilities.",
-      "type": "Workshop",
-      "date": "2026-05-16",
-      "startTime": "11:00",
-      "endTime": "11:30",
-      "duration": 30,
-      "location": "Workshop Room",
-      "trackId": "main",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Ian Huyett",
-          "title": "Cornerstone",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba40a9c21f1bc54a24269_vb2026-speaker-ian_huyett.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s126",
-      "title": "Investing in the Longevity Ecosystem",
-      "description": "Sergey Jakimov shares LongeVC's perspective on investing across the longevity biotech ecosystem.",
-      "type": "Talk",
-      "date": "2026-05-16",
-      "startTime": "11:45",
-      "endTime": "12:15",
-      "duration": 30,
-      "location": "Main Stage",
-      "trackId": "investors",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Sergey Jakimov",
-          "title": "Founder \u2014 LongeVC",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba420207644001e1600a8_vb2026-speaker-sergey_jakimov.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s127",
-      "title": "Remote-Control Biology",
-      "description": "Richard Fuisz presents Non-fiction Laboratories' work on programmable biology and remote-controlled biological systems.",
-      "type": "Workshop",
-      "date": "2026-05-16",
-      "startTime": "11:45",
-      "endTime": "12:15",
-      "duration": 30,
-      "location": "Workshop Room",
-      "trackId": "ai-bio",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Richard Fuisz",
-          "title": "Non-fiction Laboratories",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba41dbfd54867618c3b70_vb2026-speaker-richard_fuisz.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s128",
-      "title": "NAD+ Metabolism & Healthy Aging",
-      "description": "Charles Brenner presents his pioneering research on NAD+ metabolism, metabolic stress, and their implications for healthy aging.",
-      "type": "Talk",
-      "date": "2026-05-16",
-      "startTime": "13:15",
-      "endTime": "13:45",
-      "duration": 30,
-      "location": "Main Stage",
-      "trackId": "science",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Charles Brenner",
-          "title": "City of Hope",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba402ae3bb44e2f11ad33_vb2026-speaker-charles_brenner.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s129",
-      "title": "Translational Approaches to Age-Related Disease",
-      "description": "Kelsey Moody discusses Ichor Therapeutics' translational research bridging basic aging science and clinical application.",
-      "type": "Workshop",
-      "date": "2026-05-16",
-      "startTime": "13:15",
-      "endTime": "13:45",
-      "duration": 30,
-      "location": "Workshop Room",
-      "trackId": "science",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Kelsey Moody",
-          "title": "Ichor Therapeutics",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba40ffbb5ab965c3ff7a9_vb2026-speaker-kelsey_moody.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s130",
-      "title": "Decentralized Science & the Longevity Movement",
-      "description": "Laurence Ion explores how DeSci, VitaDAO, and decentralized governance models are accelerating longevity research and community building.",
-      "type": "Talk",
-      "date": "2026-05-16",
-      "startTime": "15:15",
-      "endTime": "15:45",
-      "duration": 30,
-      "location": "Main Stage",
-      "trackId": "main",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Laurence Ion",
-          "title": "Founding Steward \u2014 VitaDAO, Zuzalu, Vitalia, Viva.city",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba41037383ea28a5d84e7_vb2026-speaker-laurence_ion.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s131",
-      "title": "Ethics & Policy in the Age of Longevity",
-      "description": "Raiany Romanni examines the ethical and policy considerations that will shape the future of longevity science and its societal impact.",
-      "type": "Workshop",
-      "date": "2026-05-16",
-      "startTime": "15:15",
-      "endTime": "15:45",
-      "duration": 30,
-      "location": "Workshop Room",
-      "trackId": "main",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Raiany Romanni",
-          "title": "Writer",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba41bfbb5ab965c3ffe9e_vb2026-speaker-raiany_romanni.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s132",
-      "title": "Metabolic Health & Longevity",
-      "description": "P.D. Mangan leads a workshop on practical metabolic health strategies for extending healthspan and optimizing daily performance.",
-      "type": "Workshop",
-      "date": "2026-05-16",
-      "startTime": "13:45",
-      "endTime": "14:45",
-      "duration": 60,
-      "location": "Workshop Room",
-      "trackId": "science",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "P.D. Mangan",
-          "title": "Independent researcher, author, and metabolic health coach \u2014 Author",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba41a686d885305ff4337_vb2026-speaker-p_d_mangan.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s133",
-      "title": "Leadership & Scaling Health Innovation",
-      "description": "Kat Cole delivers the Day 4 keynote on scaling health innovation from startup to global impact.",
-      "type": "Talk",
-      "date": "2026-05-17",
-      "startTime": "09:15",
-      "endTime": "10:00",
-      "duration": 45,
-      "location": "Main Stage",
-      "trackId": "main",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Kat Cole",
-          "title": "",
-          "photo": ""
-        }
-      ]
-    },
-    {
-      "id": "s134",
-      "title": "Personalized Longevity: Designing Your Own Health Experiments",
-      "description": "Adam Bataineh explores how to run successful n=1 experiments and design personalized longevity protocols.",
-      "type": "Talk",
-      "date": "2026-05-17",
-      "startTime": "10:15",
-      "endTime": "10:45",
-      "duration": 30,
-      "location": "Main Stage",
-      "trackId": "science",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Adam Bataineh",
-          "title": "Founder & Medical Director \u2014 Numenor",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba3fd207644001e15f96f_vb2026-speaker-adam_bataineh.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s135",
-      "title": "Proactive Health: New Approaches to Aging",
-      "description": "Andrew Brack presents ARPA-H's Proactive Health program and how machine learning is being used to identify drugs for age-related diseases.",
-      "type": "Workshop",
-      "date": "2026-05-17",
-      "startTime": "10:15",
-      "endTime": "10:45",
-      "duration": 30,
-      "location": "Workshop Room",
-      "trackId": "main",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Andrew Brack",
-          "title": "Program Director \u2014 ARPA-H Program Director",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba3ffbfd54867618c2f88_vb2026-speaker-andrew_brack.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s136",
-      "title": "Senescent Cells & Targeted Aging Interventions",
-      "description": "Marco Quarta discusses Rubedo Life Sciences' approach to targeting senescent and pathological cells involved in the aging process.",
-      "type": "Talk",
-      "date": "2026-05-17",
-      "startTime": "11:00",
-      "endTime": "11:30",
-      "duration": 30,
-      "location": "Main Stage",
-      "trackId": "science",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Marco Quarta",
-          "title": "CEO \u2014 Rubedo Life Sciences",
-          "photo": ""
-        }
-      ]
-    },
-    {
-      "id": "s137",
-      "title": "Stem Cell Therapy & Regenerative Longevity",
-      "description": "Adeel Khan presents the latest advances in stem cell therapy and anti-aging treatments from Eterna Health.",
-      "type": "Workshop",
-      "date": "2026-05-17",
-      "startTime": "11:00",
-      "endTime": "11:30",
-      "duration": 30,
-      "location": "Workshop Room",
-      "trackId": "science",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Adeel Khan",
-          "title": "Founder \u2014 Eterna Health",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba3febfd54867618c2f0e_vb2026-speaker-adeel_khan.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s138",
-      "title": "Precision Nutrition for Healthspan",
-      "description": "Ari Tulla shares how Elo Health is using data-driven precision nutrition to optimize healthspan and longevity.",
-      "type": "Talk",
-      "date": "2026-05-17",
-      "startTime": "11:45",
-      "endTime": "12:15",
-      "duration": 30,
-      "location": "Main Stage",
-      "trackId": "science",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Ari Tulla",
-          "title": "CEO \u2014 Elo Health",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba4029c21f1bc54a23bc8_vb2026-speaker-ari_tulla.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s139",
-      "title": "The Future of Drug Discovery & R&D Productivity",
-      "description": "Jack Scannell examines the root causes of declining pharma R&D productivity and what it means for longevity drug development.",
-      "type": "Workshop",
-      "date": "2026-05-17",
-      "startTime": "11:45",
-      "endTime": "12:15",
-      "duration": 30,
-      "location": "Workshop Room",
-      "trackId": "science",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Jack Scannell",
-          "title": "Founder \u2014 Etheros Pharmaceuticals",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba40bbfd54867618c3456_vb2026-speaker-jack_scannell.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s140",
-      "title": "Cryonics & the Future of Life Extension",
-      "description": "Ralph Merkle discusses the science and future potential of cryonics as a pathway to life extension.",
-      "type": "Talk",
-      "date": "2026-05-17",
-      "startTime": "13:15",
-      "endTime": "13:45",
-      "duration": 30,
-      "location": "Main Stage",
-      "trackId": "biostasis",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Ralph Merkle",
-          "title": "Board Member \u2014 Alcor Life Extension Foundation",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba41cfbb5ab965c3ffeea_vb2026-speaker-ralph_merkle.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s141",
-      "title": "Perspectives on Preservation Science",
-      "description": "Gloria Eliott shares her career-spanning perspective on the evolution and future of preservation science.",
-      "type": "Workshop",
-      "date": "2026-05-15",
-      "startTime": "15:15",
-      "endTime": "15:45",
-      "duration": 30,
-      "location": "Workshop Room",
-      "trackId": "biostasis",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Gloria Eliott",
-          "title": "Professor Emeritus \u2014 University of North Carolina at Charlotte",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba409bfd54867618c3364_vb2026-speaker-gloria_eliott.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s142",
-      "title": "Financial Planning for a Longer Life",
-      "description": "Curtis Estes explores the financial planning implications of significantly extended lifespans.",
-      "type": "Talk",
-      "date": "2026-05-17",
-      "startTime": "15:15",
-      "endTime": "15:45",
-      "duration": 30,
-      "location": "Main Stage",
-      "trackId": "investors",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Curtis Estes",
-          "title": "Northwestern Mutual",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba40579e4f9cc3751eeaa_vb2026-speaker-curtis_estes.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s143",
-      "title": "Investing in the Biology of Aging",
-      "description": "Jarod Rutledge shares Starbloom Capital's investment thesis on aging biology and the companies advancing healthspan.",
-      "type": "Workshop",
-      "date": "2026-05-17",
-      "startTime": "15:15",
-      "endTime": "15:45",
-      "duration": 30,
-      "location": "Workshop Room",
-      "trackId": "investors",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Jarod Rutledge",
-          "title": "Director of Biotechnology \u2014 Starbloom Capital",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba40cc9a29e8e52b43223_vb2026-speaker-jarod_rutledge.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s144",
-      "title": "Doing Big Science: A Global Vision for Longevity",
-      "description": "Todd White presents a bold vision for large-scale scientific initiatives in longevity, arguing for coordinated global efforts and ambitious research programs that can accelerate breakthroughs in healthspan and lifespan extension.",
-      "type": "Workshop",
-      "date": "2026-05-17",
-      "startTime": "15:45",
-      "endTime": "16:00",
-      "duration": 15,
-      "location": "Workshop Room",
-      "trackId": "main",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Todd White",
-          "title": "Thalion Global",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba422bfd54867618c3d40_vb2026-speaker-todd_white.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s145",
-      "title": "Precision Nutrition for Healthspan Workshop",
-      "description": "Ari Tulla leads an interactive workshop on implementing precision nutrition strategies for optimal healthspan.",
-      "type": "Workshop",
-      "date": "2026-05-17",
-      "startTime": "13:45",
-      "endTime": "14:45",
-      "duration": 60,
-      "location": "Workshop Room",
-      "trackId": "science",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Ari Tulla",
-          "title": "CEO \u2014 Elo Health",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba4029c21f1bc54a23bc8_vb2026-speaker-ari_tulla.jpg"
-        }
-      ]
-    },
-    {
-      "id": "s146",
-      "title": "Networking Mixer",
-      "description": "Connect with fellow attendees, speakers, and researchers over drinks and conversation.",
-      "type": "Social",
-      "date": "2026-05-14",
-      "startTime": "17:30",
-      "endTime": "19:00",
-      "duration": 90,
-      "location": "Terrace",
-      "trackId": "main",
-      "bookable": false,
-      "speakers": []
-    },
-    {
-      "id": "s147",
-      "title": "Networking Mixer",
-      "description": "Connect with fellow attendees, speakers, and researchers over drinks and conversation.",
-      "type": "Social",
-      "date": "2026-05-15",
-      "startTime": "17:30",
-      "endTime": "19:00",
-      "duration": 90,
-      "location": "Terrace",
-      "trackId": "main",
-      "bookable": false,
-      "speakers": []
-    },
-    {
-      "id": "s148",
-      "title": "Networking Mixer",
-      "description": "Connect with fellow attendees, speakers, and researchers over drinks and conversation.",
-      "type": "Social",
-      "date": "2026-05-16",
-      "startTime": "17:30",
-      "endTime": "19:00",
-      "duration": 90,
-      "location": "Terrace",
-      "trackId": "main",
-      "bookable": false,
-      "speakers": []
-    },
-    {
-      "id": "s149",
-      "title": "Closing Reception",
-      "description": "Celebrate the end of Vitalist Bay 2026 with a closing reception featuring reflections on the week's highlights.",
-      "type": "Social",
-      "date": "2026-05-17",
-      "startTime": "17:30",
-      "endTime": "19:00",
-      "duration": 90,
-      "location": "Terrace",
-      "trackId": "main",
-      "bookable": false,
-      "speakers": []
-    },
-    {
-      "id": "s150",
-      "title": "Wearables & Multi-Omics for Precision Health",
-      "description": "Michael Snyder presents his pioneering work using wearable devices and multi-omics profiling to detect disease early and optimize individual health trajectories.",
-      "type": "Talk",
-      "date": "2026-05-15",
-      "startTime": "10:15",
-      "endTime": "10:45",
-      "duration": 30,
-      "location": "Main Stage",
-      "trackId": "science",
-      "bookable": false,
-      "speakers": [
-        {
-          "name": "Michael Snyder",
-          "title": "Professor & Chair \u2014 Stanford Genetics",
-          "photo": "https://assets.vitalistbay.com/images/speakers/697ba412fbb5ab965c3ffb3f_vb2026-speaker-michael_snyder.jpg"
-        }
-      ]
     }
   ]
 }

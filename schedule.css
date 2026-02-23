@@ -641,11 +641,6 @@
     padding: 0 var(--vb-spacing-md);
   }
 
-  .vb-session {
-    flex: 1 1 300px;
-    max-width: none;
-  }
-
   .vb-schedule__header-bar {
     flex-wrap: wrap;
     gap: var(--vb-spacing-md);

@@ -37,6 +37,11 @@ const SCHEDULE_DATA = {
       "color": "#8CEBF4"
     },
     {
+      "id": "science-of-biostasis",
+      "name": "Science of Biostasis",
+      "color": "#6495ED"
+    },
+    {
       "id": "activities",
       "name": "Activities",
       "color": "#C0D3A5"
@@ -1190,7 +1195,7 @@ const SCHEDULE_DATA = {
       "endTime": "15:00",
       "duration": 50,
       "location": "Workshop Room C",
-      "trackId": "biostasis",
+      "trackId": "science-of-biostasis",
       "bookable": false,
       "speakers": [
         {

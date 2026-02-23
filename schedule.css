@@ -337,14 +337,9 @@
   padding-bottom: var(--vb-spacing-xs);
 }
 
-/* Single session - full width */
-/* Single session - span both columns on desktop */
+/* Single session - keep 2-column grid, card just occupies one column */
 .vb-schedule__sessions--single {
-  grid-template-columns: 1fr;
-}
-
-.vb-schedule__sessions--single .vb-session {
-  max-width: 500px;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 /* ========================================
@@ -360,6 +355,7 @@
   display: flex;
   flex-direction: column;
   height: fit-content;
+  max-width: 500px;
 }
 
 /* Hover removed - cards are not clickable */

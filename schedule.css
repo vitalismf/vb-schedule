@@ -340,14 +340,14 @@
 
 .vb-schedule__sessions {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 500px));
   gap: var(--vb-spacing-md);
   padding-bottom: var(--vb-spacing-xs);
 }
 
-/* Single session - keep 2-column grid, card just occupies one column */
+/* Single session - same 2-column grid, card just fills first column */
 .vb-schedule__sessions--single {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 500px));
 }
 
 /* ========================================
@@ -363,7 +363,7 @@
   display: flex;
   flex-direction: column;
   height: fit-content;
-  max-width: 500px;
+  width: 100%;
 }
 
 /* Hover removed - cards are not clickable */

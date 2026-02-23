@@ -3,6 +3,14 @@
    Eudemonia-style Conference Agenda
    ======================================== */
 
+/* Reset - ensure consistent box-sizing regardless of host page */
+.vb-schedule,
+.vb-schedule *,
+.vb-schedule *::before,
+.vb-schedule *::after {
+  box-sizing: border-box;
+}
+
 /* CSS Custom Properties */
 :root {
   /* Colors - Eudemonia style */
